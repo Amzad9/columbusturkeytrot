@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/packet-pickup/layout,_N_T_/packet-pickup/page,_N_T_/packet-pickup/"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/packet-pickup/__PAGE__",
+    "/packet-pickup",
+    "/_index",
+    "/_head"
+  ]
+}

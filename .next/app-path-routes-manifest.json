@@ -1,0 +1,17 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/_global-error/page": "/_global-error",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/about/page": "/about",
+  "/case-studies/page": "/case-studies",
+  "/our-beneficiary/page": "/our-beneficiary",
+  "/contact/page": "/contact",
+  "/maps/page": "/maps",
+  "/event-details/page": "/event-details",
+  "/questions/page": "/questions",
+  "/packet-pickup/page": "/packet-pickup",
+  "/services/page": "/services",
+  "/swag/page": "/swag",
+  "/sponsors/page": "/sponsors"
+}

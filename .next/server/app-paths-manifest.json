@@ -1,0 +1,17 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/about/page": "app/about/page.js",
+  "/case-studies/page": "app/case-studies/page.js",
+  "/our-beneficiary/page": "app/our-beneficiary/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/maps/page": "app/maps/page.js",
+  "/event-details/page": "app/event-details/page.js",
+  "/questions/page": "app/questions/page.js",
+  "/packet-pickup/page": "app/packet-pickup/page.js",
+  "/services/page": "app/services/page.js",
+  "/swag/page": "app/swag/page.js",
+  "/sponsors/page": "app/sponsors/page.js"
+}
