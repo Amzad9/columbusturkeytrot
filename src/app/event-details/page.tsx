@@ -71,7 +71,7 @@ export default function EventDetailsPage() {
         eyebrow: "Event Details",
         title: "Choose Your Challenge",
         subtitle: "Run the distance that fits your goals and celebrate every mile with a supportive community.",
-        imageUrl: "https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&fit=crop&w=1400&q=80",
+        imageUrl: "https://scontent.fdel65-2.fna.fbcdn.net/v/t39.30808-6/481671054_1252847726846850_7515001714700977477_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7b2446&_nc_ohc=mndiZIZ-sncQ7kNvwGybDst&_nc_oc=AdqJ3QqhaByX4adMljoKGOpGskBK1xcL038Vym71XxKLnhKIhSMrmt03RHXExuiZA9K0j0IMgDo9HTxR0Hc2xAzZ&_nc_zt=23&_nc_ht=scontent.fdel65-2.fna&_nc_gid=-D0ki8p-PlAc2y5ytRcU-w&_nc_ss=7b2a8&oh=00_Af4w_dwpK3YVCK-pVPRcXLjvGEgYmzWv80to2Itz2VKeXA&oe=69FA7CB3",
       }}
     >
       <section className="px-4 py-10 sm:px-8 sm:py-14">

@@ -15,16 +15,16 @@ export default function SiteFooter() {
     <footer className="mt-0 pt-4 border-t border-white/10 bg-[  #2a3138] px-3 md:px-0">
       <div className="container mx-auto">
         <div className="grid gap-8 pb-8 pt-8 lg:grid-cols-5">
-          <div className="flex flex-col w-full gap-4">
-            <div className="relative h-36 w-38 border border-white rounded-md overflow-hidden  bg-transparent">
+          <div className="flex items-start justify-center flex-col w-full gap-4">
+            {/* <div className="relative h-36 w-38 border border-white rounded-md overflow-hidden  bg-transparent">
               <Image
                 src="/logo.png"
                 alt="Columbus Turkey Trot logo"
                 fill
                 className="object-contain"
               />
-            </div>
-            <div className="relative h-36 w-38 border border-white rounded-md overflow-hidden  bg-transparent">
+            </div> */}
+            <div className="relative h-full w-full rounded-md overflow-hidden  bg-transparent">
             <video
   autoPlay
   loop

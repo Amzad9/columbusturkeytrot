@@ -45,7 +45,7 @@ export default function SwagPage() {
         eyebrow: "Swag",
         title: "Run It. Celebrate It.",
         subtitle: "Thanksgiving race-day perks include participant shirt, finisher medal, and festive community energy.",
-        imageUrl: "https://images.unsplash.com/photo-1774050021257-97b320f45f98?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        imageUrl: "https://scontent.fdel65-3.fna.fbcdn.net/v/t39.30808-6/481194774_1252847970180159_5907388455606235312_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=7b2446&_nc_ohc=LNEj2vaIDB8Q7kNvwGl78fK&_nc_oc=AdogDdI0Rgc9X_nKxzsuTQ3RfiVRE9ld_opWALBlyyy5ScGY6bArNHcBVS84kOqNqG6RW1a9FeGF4skXdCv4Xdm5&_nc_zt=23&_nc_ht=scontent.fdel65-3.fna&_nc_gid=MNkjP_CKaaDVthAisqB5Zg&_nc_ss=7b2a8&oh=00_Af73jMXnOhEqCu2KSEJlBOYYjZ3Y36DZuianVF4TffjBkA&oe=69FA9B3A",
       }}
     >
       {/* <section className="px-4 pt-10 sm:px-8 sm:pt-14">
