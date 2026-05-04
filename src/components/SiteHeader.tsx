@@ -36,7 +36,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
         >
           <div className="relative overflow-hidden rounded-md bg-transparent h-24 w-60">
             <Image
-              src="/Logolatest.jpg"
+              src="/logo.jpg"
               alt="Columbus Turkey Trot logo"
               fill
               className="object-contain"
