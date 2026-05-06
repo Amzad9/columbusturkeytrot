@@ -31,9 +31,8 @@ export default function AboutPage() {
         eyebrow: "About",
         title: (
           <>
-            Columbus Turkey Trot
-            <br />
-            Thanksgiving Day Tradition
+            The Columbus Turkey Trot: A Family
+            Tradition
           </>
         ),
         subtitle:
@@ -48,9 +47,10 @@ export default function AboutPage() {
               Our Mission
             </h2>
             <p className="mt-4 text-base leading-7 text-white/90 sm:text-lg sm:leading-8">
-            The Columbus Turkey Trot is one of Central Ohio&apos;s favorite holiday events. Choose the
-            5-Mile race, 2.6-Mile Walk N&apos; Talk, Tot Trot, or virtual option and celebrate race
-            morning with community spirit. Proceeds benefit Easterseals of Central and Southeast Ohio.
+            The Columbus Turkey Trot serves to benefit Easterseals of Central and Southeast
+            Ohio. Sponsored by Chase Bank, this family tradition includes both a 4-mile and 2.5
+            mile run or walk. Don’t forget the kids! The Tot Trot is a 100 yard dash for children 9 and
+            under.
             </p>
            
 
@@ -86,28 +86,39 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-[#1e252d] px-4 py-10 sm:px-8 sm:py-14">
+      <section className="bg-[#1e252d] px-4 py-4">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-black uppercase tracking-tight text-[#f3d27d] sm:text-5xl">
-            What You Can Expect
+          <h2 className="text-2xl font-black uppercase tracking-tight text-[#f3d27d]">
+          Overview
           </h2>
-          <div className="mt-6 grid gap-6 md:grid-cols-2">
-            {values.map((item) => (
-              <article
-                key={item.title}
-                className="rounded-2xl border border-white/15 bg-white/5 p-6 shadow-[0_14px_30px_rgba(0,0,0,0.20)]"
-              >
-                <span className="inline-flex rounded-full border border-white/15 bg-white/5 p-3 text-[#f3d27d]">
-                  {item.icon}
-                </span>
-                <h3 className="mt-4 text-2xl font-black uppercase tracking-tight text-white">
-                  {item.title}
-                </h3>
-                <p className="mt-3 text-base leading-7 text-white/85 sm:text-lg sm:leading-8">
-                  {item.body}
-                </p>
-              </article>
-            ))}
+          <div className="mt-6 grid gap-6 md:grid-cols-1">
+           <p className="">The Columbus Turkey Trot is an annual event that welcomes runners and walkers of all
+ages and experience levels. It serves as a cherished family tradition, inviting everyone to
+join in the festivities.</p>
+          </div>
+        </div>
+      </section>
+      <section className="bg-[#1e252d] px-4 py-4">
+        <div className="container mx-auto">
+          <h4 className="text-2xl font-black uppercase tracking-tight text-[#f3d27d]">
+          Participation         
+           </h4>
+          <div className="mt-6 grid gap-6 md:grid-cols-1">
+           <p>Participants are encouraged to come out and meet new friends, explore new places, and
+most importantly, have fun. Whether you’re looking to challenge yourself physically or
+simply enjoy the festive atmosphere, the event offers something for everyone.</p>
+          </div>
+        </div>
+      </section>
+      <section className="bg-[#1e252d] px-4 py-4">
+        <div className="container mx-auto">
+          <h2 className="text-2xl font-black uppercase tracking-tight text-[#f3d27d]">
+          Community Spirit       
+           </h2>
+          <div className="mt-6 grid gap-6 md:grid-cols-1">
+           <p>This event is open to all, making it easy to bring your family and friends along. It’s an
+opportunity to create lasting memories and embrace the spirit of community that makes
+the Columbus Turkey Trot so special.</p>
           </div>
         </div>
       </section>

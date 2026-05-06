@@ -53,9 +53,9 @@ const siteNav = [
     }
 ];
 const siteContact = {
-    emailShowroom: "info@columbusturkeytrot.com",
-    emailOperations: "info@columbusturkeytrot.com",
-    phone: "(614) 545-2268",
+    emailShowroom: "jeff@ultrafitusa.com",
+    emailOperations: "jeff@ultrafitusa.com",
+    phone: "614-332-5205",
     phoneHref: "tel:+16145452268",
     addressLines: [
         "Shops on Lane Avenue",
@@ -95,13 +95,11 @@ __turbopack_context__.s([
     ()=>SiteFooter
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/facebook.js [app-rsc] (ecmascript) <export default as Facebook>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/instagram.js [app-rsc] (ecmascript) <export default as Instagram>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$twitter$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Twitter$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/twitter.js [app-rsc] (ecmascript) <export default as Twitter>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/siteConfig.ts [app-rsc] (ecmascript)");
-;
 ;
 ;
 ;
@@ -121,56 +119,37 @@ function SiteFooter() {
                     className: "grid gap-8 pb-8 pt-8 lg:grid-cols-5",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col w-full gap-4",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative h-36 w-38 border border-white rounded-md overflow-hidden  bg-transparent",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/logo.png",
-                                        alt: "Columbus Turkey Trot logo",
-                                        fill: true,
-                                        className: "object-contain"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/SiteFooter.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
+                            className: "flex items-start self-start justify-center flex-col w-full gap-4",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "relative h-auto w-full rounded-md overflow-hidden  bg-transparent",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                                    autoPlay: true,
+                                    loop: true,
+                                    muted: true,
+                                    playsInline: true,
+                                    className: "object-contain w-full h-full",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
+                                            src: "/Turkey-Trot-2026-Animation-1.mp4.mp4",
+                                            type: "video/mp4"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/SiteFooter.tsx",
+                                            lineNumber: 36,
+                                            columnNumber: 3
+                                        }, this),
+                                        "Your browser does not support the video tag."
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 19,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative h-36 w-38 border border-white rounded-md overflow-hidden  bg-transparent",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                                        autoPlay: true,
-                                        loop: true,
-                                        muted: true,
-                                        playsInline: true,
-                                        className: "object-contain w-full h-full",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
-                                                src: "/Turkey-Trot-2026-Animation-1.mp4.mp4",
-                                                type: "video/mp4"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/SiteFooter.tsx",
-                                                lineNumber: 36,
-                                                columnNumber: 3
-                                            }, this),
-                                            "Your browser does not support the video tag."
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/components/SiteFooter.tsx",
-                                        lineNumber: 28,
-                                        columnNumber: 13
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 27,
+                                    lineNumber: 28,
                                     columnNumber: 13
                                 }, this)
-                            ]
-                        }, void 0, true, {
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/SiteFooter.tsx",
+                                lineNumber: 27,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
                             fileName: "[project]/src/components/SiteFooter.tsx",
                             lineNumber: 18,
                             columnNumber: 11
@@ -581,16 +560,8 @@ function AboutPage() {
         hero: {
             eyebrow: "About",
             title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
-                children: [
-                    "Columbus Turkey Trot",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                        fileName: "[project]/src/app/about/page.tsx",
-                        lineNumber: 35,
-                        columnNumber: 13
-                    }, void 0),
-                    "Thanksgiving Day Tradition"
-                ]
-            }, void 0, true),
+                children: "The Columbus Turkey Trot: A Family Tradition"
+            }, void 0, false),
             subtitle: "The Columbus Turkey Trot brings runners, walkers, kids, and families together for a fun Thanksgiving morning tradition.",
             imageUrl: "https://scontent.fdel65-2.fna.fbcdn.net/v/t39.30808-6/488201443_1280358300762459_5014584882957390548_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=2a1932&_nc_ohc=smK3cvsD-PwQ7kNvwGLKE9B&_nc_oc=AdokiklSRmXZiUI06wRSpKcrYWs93W4sj8RuWuxHFZs2HRCDoFlyYkB5nWvoGTB9JVCPHjCS7MXbz9VqZCCnsUat&_nc_zt=23&_nc_ht=scontent.fdel65-2.fna&_nc_gid=CzJqkU3yBI6jSeoj6kH5ig&_nc_ss=7b2a8&oh=00_Af1MNOZzMMI96yUoWCLBjhb0S217UwUa__Wx6RInAgrqOg&oe=69F924B5"
         },
@@ -609,15 +580,15 @@ function AboutPage() {
                                     children: "Our Mission"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 47,
+                                    lineNumber: 46,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mt-4 text-base leading-7 text-white/90 sm:text-lg sm:leading-8",
-                                    children: "The Columbus Turkey Trot is one of Central Ohio's favorite holiday events. Choose the 5-Mile race, 2.6-Mile Walk N' Talk, Tot Trot, or virtual option and celebrate race morning with community spirit. Proceeds benefit Easterseals of Central and Southeast Ohio."
+                                    children: "The Columbus Turkey Trot serves to benefit Easterseals of Central and Southeast Ohio. Sponsored by Chase Bank, this family tradition includes both a 4-mile and 2.5 mile run or walk. Don’t forget the kids! The Tot Trot is a 100 yard dash for children 9 and under."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 49,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -652,7 +623,7 @@ function AboutPage() {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/about/page.tsx",
-                            lineNumber: 46,
+                            lineNumber: 45,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -691,62 +662,37 @@ function AboutPage() {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/about/page.tsx",
-                    lineNumber: 45,
+                    lineNumber: 44,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/about/page.tsx",
-                lineNumber: 44,
+                lineNumber: 43,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "bg-[#1e252d] px-4 py-10 sm:px-8 sm:py-14",
+                className: "bg-[#1e252d] px-4 py-4",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl font-black uppercase tracking-tight text-[#f3d27d] sm:text-5xl",
-                            children: "What You Can Expect"
+                            className: "text-2xl font-black uppercase tracking-tight text-[#f3d27d]",
+                            children: "Overview"
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.tsx",
                             lineNumber: 91,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mt-6 grid gap-6 md:grid-cols-2",
-                            children: values.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                    className: "rounded-2xl border border-white/15 bg-white/5 p-6 shadow-[0_14px_30px_rgba(0,0,0,0.20)]",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "inline-flex rounded-full border border-white/15 bg-white/5 p-3 text-[#f3d27d]",
-                                            children: item.icon
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 100,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            className: "mt-4 text-2xl font-black uppercase tracking-tight text-white",
-                                            children: item.title
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 103,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "mt-3 text-base leading-7 text-white/85 sm:text-lg sm:leading-8",
-                                            children: item.body
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 106,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, item.title, true, {
-                                    fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 96,
-                                    columnNumber: 15
-                                }, this))
+                            className: "mt-6 grid gap-6 md:grid-cols-1",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "",
+                                children: "The Columbus Turkey Trot is an annual event that welcomes runners and walkers of all ages and experience levels. It serves as a cherished family tradition, inviting everyone to join in the festivities."
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/about/page.tsx",
+                                lineNumber: 95,
+                                columnNumber: 12
+                            }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/about/page.tsx",
                             lineNumber: 94,
@@ -761,6 +707,82 @@ function AboutPage() {
             }, void 0, false, {
                 fileName: "[project]/src/app/about/page.tsx",
                 lineNumber: 89,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "bg-[#1e252d] px-4 py-4",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "container mx-auto",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                            className: "text-2xl font-black uppercase tracking-tight text-[#f3d27d]",
+                            children: "Participation"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/about/page.tsx",
+                            lineNumber: 103,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "mt-6 grid gap-6 md:grid-cols-1",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                children: "Participants are encouraged to come out and meet new friends, explore new places, and most importantly, have fun. Whether you’re looking to challenge yourself physically or simply enjoy the festive atmosphere, the event offers something for everyone."
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/about/page.tsx",
+                                lineNumber: 107,
+                                columnNumber: 12
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/about/page.tsx",
+                            lineNumber: 106,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/about/page.tsx",
+                    lineNumber: 102,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/about/page.tsx",
+                lineNumber: 101,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "bg-[#1e252d] px-4 py-4",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "container mx-auto",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            className: "text-2xl font-black uppercase tracking-tight text-[#f3d27d]",
+                            children: "Community Spirit"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/about/page.tsx",
+                            lineNumber: 115,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "mt-6 grid gap-6 md:grid-cols-1",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                children: "This event is open to all, making it easy to bring your family and friends along. It’s an opportunity to create lasting memories and embrace the spirit of community that makes the Columbus Turkey Trot so special."
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/about/page.tsx",
+                                lineNumber: 119,
+                                columnNumber: 12
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/about/page.tsx",
+                            lineNumber: 118,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/src/app/about/page.tsx",
+                    lineNumber: 114,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/src/app/about/page.tsx",
+                lineNumber: 113,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -780,7 +802,7 @@ function AboutPage() {
                                             children: "Ready?"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 120,
+                                            lineNumber: 131,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -788,7 +810,7 @@ function AboutPage() {
                                             children: "Let’s make race day unforgettable."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 123,
+                                            lineNumber: 134,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -796,7 +818,7 @@ function AboutPage() {
                                             children: "If you’re registering, sponsoring, volunteering, or just have a question, reach out—we’ll help you get set."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 126,
+                                            lineNumber: 137,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -808,7 +830,7 @@ function AboutPage() {
                                                     children: "Get In Touch"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/page.tsx",
-                                                    lineNumber: 130,
+                                                    lineNumber: 141,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -817,24 +839,24 @@ function AboutPage() {
                                                     children: "Back To Home"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/about/page.tsx",
-                                                    lineNumber: 136,
+                                                    lineNumber: 147,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/about/page.tsx",
-                                            lineNumber: 129,
+                                            lineNumber: 140,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 119,
+                                    lineNumber: 130,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/page.tsx",
-                                lineNumber: 118,
+                                lineNumber: 129,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -851,33 +873,33 @@ function AboutPage() {
                                         allowFullScreen: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/about/page.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 167,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/about/page.tsx",
-                                    lineNumber: 146,
+                                    lineNumber: 157,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/about/page.tsx",
-                                lineNumber: 145,
+                                lineNumber: 156,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/about/page.tsx",
-                        lineNumber: 117,
+                        lineNumber: 128,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/about/page.tsx",
-                    lineNumber: 116,
+                    lineNumber: 127,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/about/page.tsx",
-                lineNumber: 115,
+                lineNumber: 126,
                 columnNumber: 7
             }, this)
         ]

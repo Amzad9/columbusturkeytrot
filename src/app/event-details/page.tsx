@@ -11,14 +11,14 @@ export const metadata: Metadata = {
 
 const distances = [
   {
-    title: "Columbus Turkey Trot 5-Mile",
-    miles: "5 miles",
+    title: "Columbus Turkey Trot is 4-Mile",
+    miles: "4 miles",
     startTime: "9:00AM",
     body: "Our signature Thanksgiving Day race distance for runners of all levels.",
   },
   {
-    title: "Walk N' Talk",
-    miles: "2.6 miles",
+    title: "Walk N Talk is 2.4-Mile",
+    miles: "2.4 miles",
     startTime: "9:00AM",
     body: "A friendly walk option that keeps the holiday morning inclusive and social.",
   },

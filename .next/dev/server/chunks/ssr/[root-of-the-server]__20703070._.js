@@ -119,9 +119,9 @@ function SiteFooter() {
                     className: "grid gap-8 pb-8 pt-8 lg:grid-cols-5",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex items-start justify-center flex-col w-full gap-4",
+                            className: "flex items-start self-start justify-center flex-col w-full gap-4",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative h-full w-full rounded-md overflow-hidden  bg-transparent",
+                                className: "relative h-auto w-full rounded-md overflow-hidden  bg-transparent",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                                     autoPlay: true,
                                     loop: true,
@@ -519,8 +519,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/message-circle.js [app-rsc] (ecmascript) <export default as MessageCircle>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.js [app-rsc] (ecmascript) <export default as Phone>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PageShell$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/PageShell.tsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/siteConfig.ts [app-rsc] (ecmascript)");
-;
 ;
 ;
 ;
@@ -553,13 +551,14 @@ function QuestionsPage() {
             imageUrl: "https://scontent-del3-1.xx.fbcdn.net/v/t39.30808-6/653971864_27357222310544485_3068443002176273656_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_ohc=QAK_pqKXc2QQ7kNvwEZYLaI&_nc_oc=AdrX6x3U-UG1s4PDZv-QgHcCBydlpnz2XoI4DDyXkGb-eFrpRXl1zQse8M_BNCSPloRqkrdwAGSHN2DLtFXckoom&_nc_zt=23&_nc_ht=scontent-del3-1.xx&_nc_gid=DUkmMc8r6AJd1WJHQ_jDsg&_nc_ss=7b2a8&oh=00_Af5oYLzsgSoinCgdFsEgxlHfnSWtO8bdhAqlfHmKzxhDmg&oe=69FA2B66"
         },
         children: [
+            'emailShowroom: "jeff@ultrafitusa.com", emailOperations: "jeff@ultrafitusa.com", phone: "614-332-5205",',
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "px-4 py-10 sm:px-8 sm:py-14",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto grid gap-6 md:grid-cols-3",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContact"].phoneHref,
+                            href: "tel:614-332-5205",
                             className: "rounded-2xl border border-white/15 bg-white/5 p-6 shadow-[0_14px_30px_rgba(0,0,0,0.20)] transition hover:bg-white/10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
@@ -567,7 +566,7 @@ function QuestionsPage() {
                                     strokeWidth: 2.2
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 48,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -575,25 +574,25 @@ function QuestionsPage() {
                                     children: "Call Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 46,
+                                    lineNumber: 49,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mt-2 text-white/85",
-                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContact"].phone
+                                    children: "614-332-5205"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 47,
+                                    lineNumber: 50,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/questions/page.tsx",
-                            lineNumber: 41,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: `mailto:${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContact"].emailShowroom}`,
+                            href: "mailto:jeff@ultrafitusa.com",
                             className: "rounded-2xl border border-white/15 bg-white/5 p-6 shadow-[0_14px_30px_rgba(0,0,0,0.20)] transition hover:bg-white/10",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
@@ -601,7 +600,7 @@ function QuestionsPage() {
                                     strokeWidth: 2.2
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 53,
+                                    lineNumber: 56,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -609,21 +608,21 @@ function QuestionsPage() {
                                     children: "Email Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 54,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "mt-2 text-white/85",
-                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContact"].emailShowroom
+                                    children: "jeff@ultrafitusa.com"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 55,
+                                    lineNumber: 58,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/questions/page.tsx",
-                            lineNumber: 49,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -635,7 +634,7 @@ function QuestionsPage() {
                                     strokeWidth: 2.2
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 61,
+                                    lineNumber: 64,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -643,7 +642,7 @@ function QuestionsPage() {
                                     children: "Event Info"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 65,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -651,24 +650,24 @@ function QuestionsPage() {
                                     children: "See race details, distance options, and registration links."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 63,
+                                    lineNumber: 66,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/questions/page.tsx",
-                            lineNumber: 57,
+                            lineNumber: 60,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/questions/page.tsx",
-                    lineNumber: 40,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/questions/page.tsx",
-                lineNumber: 39,
+                lineNumber: 42,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -681,7 +680,7 @@ function QuestionsPage() {
                             children: "FAQ"
                         }, void 0, false, {
                             fileName: "[project]/src/app/questions/page.tsx",
-                            lineNumber: 70,
+                            lineNumber: 73,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -694,7 +693,7 @@ function QuestionsPage() {
                                             children: item.question
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/questions/page.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 77,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -702,29 +701,29 @@ function QuestionsPage() {
                                             children: item.answer
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/questions/page.tsx",
-                                            lineNumber: 75,
+                                            lineNumber: 78,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, item.question, true, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 73,
+                                    lineNumber: 76,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/questions/page.tsx",
-                            lineNumber: 71,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/questions/page.tsx",
-                    lineNumber: 69,
+                    lineNumber: 72,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/questions/page.tsx",
-                lineNumber: 68,
+                lineNumber: 71,
                 columnNumber: 7
             }, this)
         ]

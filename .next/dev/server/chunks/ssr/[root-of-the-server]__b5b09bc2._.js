@@ -53,9 +53,9 @@ const siteNav = [
     }
 ];
 const siteContact = {
-    emailShowroom: "info@columbusturkeytrot.com",
-    emailOperations: "info@columbusturkeytrot.com",
-    phone: "(614) 545-2268",
+    emailShowroom: "jeff@ultrafitusa.com",
+    emailOperations: "jeff@ultrafitusa.com",
+    phone: "614-332-5205",
     phoneHref: "tel:+16145452268",
     addressLines: [
         "Shops on Lane Avenue",
@@ -119,9 +119,9 @@ function SiteFooter() {
                     className: "grid gap-8 pb-8 pt-8 lg:grid-cols-5",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex items-start justify-center flex-col w-full gap-4",
+                            className: "flex items-start self-start justify-center flex-col w-full gap-4",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative h-full w-full rounded-md overflow-hidden  bg-transparent",
+                                className: "relative h-auto w-full rounded-md overflow-hidden  bg-transparent",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                                     autoPlay: true,
                                     loop: true,
@@ -533,14 +533,14 @@ const metadata = {
 };
 const distances = [
     {
-        title: "Columbus Turkey Trot 5-Mile",
-        miles: "5 miles",
+        title: "Columbus Turkey Trot is 4-Mile",
+        miles: "4 miles",
         startTime: "9:00AM",
         body: "Our signature Thanksgiving Day race distance for runners of all levels."
     },
     {
-        title: "Walk N' Talk",
-        miles: "2.6 miles",
+        title: "Walk N Talk is 2.4-Mile",
+        miles: "2.4 miles",
         startTime: "9:00AM",
         body: "A friendly walk option that keeps the holiday morning inclusive and social."
     },

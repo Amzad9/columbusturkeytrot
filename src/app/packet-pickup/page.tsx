@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const pickupDates = [
-  "Race day - Thursday, Nov 27 | Pickup information announced pre-event",
+  "Race Day-Thursday, November 26th",
   "Main event starts at 9:00 AM",
   "Tot Trot starts at 8:30 AM",
 ];

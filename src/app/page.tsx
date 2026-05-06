@@ -49,8 +49,9 @@ export default function Home() {
                 </h1>
               
                 <p className="mt-3 text-2xl font-semibold text-[#f3d27d] sm:text-4xl">
-                  Thanksgiving Day | Columbus, Ohio | 11/27/2026
+                  Thanksgiving Day
                 </p>
+                <p className="mt-3 text-2xl font-semibold text-[#f3d27d] sm:text-4xl">Columbus, Ohio | 11/27/2026</p>
                 <p className="mt-5 max-w-4xl text-lg leading-9 text-white/95 sm:text-2xl sm:leading-[1.3]">
                   Join one of Columbus's favorite Thanksgiving traditions. Choose your event and
                   celebrate race morning with family, friends, and the local running community.

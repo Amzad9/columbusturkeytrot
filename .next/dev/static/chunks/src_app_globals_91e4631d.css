@@ -1506,6 +1506,10 @@
     padding-block: calc(var(--spacing) * 10);
   }
 
+  .py-14 {
+    padding-block: calc(var(--spacing) * 14);
+  }
+
   .pt-1 {
     padding-top: calc(var(--spacing) * 1);
   }
