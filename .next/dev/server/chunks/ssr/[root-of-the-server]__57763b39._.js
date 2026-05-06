@@ -418,7 +418,7 @@ function Home() {
                                     className: "max-w-7xl",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                            className: "text-4xl md:text-5xl font-black uppercase leading-[0.92] text-[#00a2e7]",
+                                            className: "text-4xl md:text-4xl font-black uppercase leading-[0.92] text-[#00a2e7]",
                                             children: "2026 Columbus Turkey Trot"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
@@ -435,7 +435,7 @@ function Home() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "mt-3 text-2xl font-semibold text-[#f3d27d] sm:text-4xl",
-                                            children: "Columbus, Ohio | 11/27/2026"
+                                            children: "Columbus, Ohio 11/26/2026"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/page.tsx",
                                             lineNumber: 54,

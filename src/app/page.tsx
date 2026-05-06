@@ -44,7 +44,7 @@ export default function Home() {
           <div className="container mx-auto">
             <div className="relative z-10 grid gap-6 lg:grid-cols-2 lg:items-center">
               <div className="max-w-7xl">
-                <h1 className="text-4xl md:text-5xl font-black uppercase leading-[0.92] text-[#00a2e7]">
+                <h1 className="text-4xl md:text-4xl font-black uppercase leading-[0.92] text-[#00a2e7]">
                 2026 Columbus Turkey Trot
                 </h1>
               
