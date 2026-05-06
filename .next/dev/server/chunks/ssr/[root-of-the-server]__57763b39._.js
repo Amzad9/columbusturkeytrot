@@ -517,7 +517,7 @@ function Home() {
                         children: [
                             {
                                 title: "Race Morning Events",
-                                body: "5-Mile, 2.6-Mile Walk N' Talk, Tot Trot for kids, plus a virtual option."
+                                body: "4-Mile, 2.4-Mile Walk N' Talk, Tot Trot for kids, plus a virtual option."
                             },
                             {
                                 title: "Thanksgiving Tradition",
@@ -591,7 +591,7 @@ function Home() {
                                                         lineNumber: 126,
                                                         columnNumber: 19
                                                     }, this),
-                                                    " 5-Mile race, 2.6-Mile Walk N' Talk, Tot Trot, or virtual participation."
+                                                    " 4-Mile race, 2.4-Mile Walk N' Talk, Tot Trot, or virtual participation."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/page.tsx",

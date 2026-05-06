@@ -96,7 +96,7 @@ export default function Home() {
             {[
               {
                 title: "Race Morning Events",
-                body: "5-Mile, 2.6-Mile Walk N' Talk, Tot Trot for kids, plus a virtual option.",
+                body: "4-Mile, 2.4-Mile Walk N' Talk, Tot Trot for kids, plus a virtual option.",
               },
               {
                 title: "Thanksgiving Tradition",
@@ -123,7 +123,7 @@ export default function Home() {
               </h2>
               <ul className="mt-5 space-y-4 text-xl leading-tight text-white/95 sm:text-xl">
                 <li>
-                  <span className="font-semibold">Choose your challenge:</span> 5-Mile race, 2.6-Mile
+                  <span className="font-semibold">Choose your challenge:</span> 4-Mile race, 2.4-Mile
                   Walk N&apos; Talk, Tot Trot, or virtual participation.
                 </li>
                 <li>
