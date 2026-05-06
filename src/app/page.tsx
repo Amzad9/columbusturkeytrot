@@ -45,13 +45,13 @@ export default function Home() {
             <div className="relative z-10 grid gap-6 lg:grid-cols-2 lg:items-center">
               <div className="max-w-7xl">
                 <h1 className="text-4xl md:text-5xl font-black uppercase leading-[0.92] text-[#00a2e7]">
-                  2026 Columbus Turkey Trot
+                2026 Columbus Turkey Trot
                 </h1>
               
                 <p className="mt-3 text-2xl font-semibold text-[#f3d27d] sm:text-4xl">
                   Thanksgiving Day
                 </p>
-                <p className="mt-3 text-2xl font-semibold text-[#f3d27d] sm:text-4xl">Columbus, Ohio | 11/27/2026</p>
+                <p className="mt-3 text-2xl font-semibold text-[#f3d27d] sm:text-4xl">Columbus, Ohio 11/26/2026</p>
                 <p className="mt-5 max-w-4xl text-lg leading-9 text-white/95 sm:text-2xl sm:leading-[1.3]">
                   Join one of Columbus's favorite Thanksgiving traditions. Choose your event and
                   celebrate race morning with family, friends, and the local running community.
