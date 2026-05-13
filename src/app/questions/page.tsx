@@ -33,12 +33,9 @@ export default function QuestionsPage() {
         eyebrow: "Questions",
         title: "We're Here To Help",
         subtitle: "Need help with registration, packet pickup, or race-day details? Reach out anytime.",
-        imageUrl: "https://scontent-del3-1.xx.fbcdn.net/v/t39.30808-6/653971864_27357222310544485_3068443002176273656_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_ohc=QAK_pqKXc2QQ7kNvwEZYLaI&_nc_oc=AdrX6x3U-UG1s4PDZv-QgHcCBydlpnz2XoI4DDyXkGb-eFrpRXl1zQse8M_BNCSPloRqkrdwAGSHN2DLtFXckoom&_nc_zt=23&_nc_ht=scontent-del3-1.xx&_nc_gid=DUkmMc8r6AJd1WJHQ_jDsg&_nc_ss=7b2a8&oh=00_Af5oYLzsgSoinCgdFsEgxlHfnSWtO8bdhAqlfHmKzxhDmg&oe=69FA2B66",
+        imageUrl: "/question.jpg",
       }}
     >
-       emailShowroom: "jeff@ultrafitusa.com",
-  emailOperations: "jeff@ultrafitusa.com",
-  phone: "614-332-5205",
       <section className="px-4 py-10 sm:px-8 sm:py-14">
         <div className="container mx-auto grid gap-6 md:grid-cols-3">
           <a

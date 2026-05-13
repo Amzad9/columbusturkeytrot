@@ -58,7 +58,7 @@ const siteContact = {
     phone: "(614) 545-2268",
     phoneHref: "tel:+16145452268",
     addressLines: [
-        "Shops on Lane Avenue,",
+        "Shops on Lane Avenue",
         "1675 W Lane Ave,",
         "Columbus, OH 43221"
     ],
@@ -95,13 +95,11 @@ __turbopack_context__.s([
     ()=>SiteFooter
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/facebook.js [app-rsc] (ecmascript) <export default as Facebook>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/instagram.js [app-rsc] (ecmascript) <export default as Instagram>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$twitter$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Twitter$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/twitter.js [app-rsc] (ecmascript) <export default as Twitter>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/siteConfig.ts [app-rsc] (ecmascript)");
-;
 ;
 ;
 ;
@@ -113,7 +111,7 @@ const socialIcons = {
 };
 function SiteFooter() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "mt-0 pt-4 border-t border-white/10 bg-[radial-gradient(circle_at_top,#2a3138,#171c22_55%,#12171d)] px-3 md:px-0",
+        className: "mt-0 pt-4 border-t border-white/10 bg-[  #2a3138] px-3 md:px-0",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container mx-auto",
@@ -121,21 +119,34 @@ function SiteFooter() {
                     className: "grid gap-8 pb-8 pt-8 lg:grid-cols-5",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "flex items-start self-start justify-center flex-col w-full gap-4",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative h-36 w-auto overflow-hidden  bg-transparent p-1",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "/logo.png",
-                                    alt: "Columbus Turkey Trot logo",
-                                    fill: true,
-                                    className: "object-contain"
-                                }, void 0, false, {
+                                className: "relative h-auto w-full rounded-md overflow-hidden  bg-transparent",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                                    autoPlay: true,
+                                    loop: true,
+                                    muted: true,
+                                    playsInline: true,
+                                    className: "object-contain w-full h-full",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
+                                            src: "/Turkey-Trot-2026-Animation-1.mp4.mp4",
+                                            type: "video/mp4"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/components/SiteFooter.tsx",
+                                            lineNumber: 36,
+                                            columnNumber: 3
+                                        }, this),
+                                        "Your browser does not support the video tag."
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 20,
-                                    columnNumber: 15
+                                    lineNumber: 28,
+                                    columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/SiteFooter.tsx",
-                                lineNumber: 19,
+                                lineNumber: 27,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
@@ -150,7 +161,7 @@ function SiteFooter() {
                                     children: "Address"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 30,
+                                    lineNumber: 44,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -159,26 +170,26 @@ function SiteFooter() {
                                         __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContact"].addressLines[0],
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/components/SiteFooter.tsx",
-                                            lineNumber: 33,
+                                            lineNumber: 47,
                                             columnNumber: 15
                                         }, this),
                                         __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContact"].addressLines[1],
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/components/SiteFooter.tsx",
-                                            lineNumber: 35,
+                                            lineNumber: 49,
                                             columnNumber: 15
                                         }, this),
                                         __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContact"].addressLines[2]
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 31,
+                                    lineNumber: 45,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/SiteFooter.tsx",
-                            lineNumber: 29,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -188,7 +199,7 @@ function SiteFooter() {
                                     children: "Links"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 41,
+                                    lineNumber: 55,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -200,23 +211,23 @@ function SiteFooter() {
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/SiteFooter.tsx",
-                                                lineNumber: 45,
+                                                lineNumber: 59,
                                                 columnNumber: 19
                                             }, this)
                                         }, item.href, false, {
                                             fileName: "[project]/src/components/SiteFooter.tsx",
-                                            lineNumber: 44,
+                                            lineNumber: 58,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 56,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/SiteFooter.tsx",
-                            lineNumber: 40,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -226,7 +237,7 @@ function SiteFooter() {
                                     children: "Follow Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 54,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -244,55 +255,24 @@ function SiteFooter() {
                                                 strokeWidth: 2.25
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/SiteFooter.tsx",
-                                                lineNumber: 67,
+                                                lineNumber: 81,
                                                 columnNumber: 21
                                             }, this)
                                         }, key, false, {
                                             fileName: "[project]/src/components/SiteFooter.tsx",
-                                            lineNumber: 59,
+                                            lineNumber: 73,
                                             columnNumber: 19
                                         }, this);
                                     })
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 55,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mt-4 text-base leading-7 text-[#d7dee2] sm:text-lg sm:leading-8",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "font-black text-white",
-                                            children: "Race day tips."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/SiteFooter.tsx",
-                                            lineNumber: 73,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Packet pickup: Race morning details posted before event week."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/SiteFooter.tsx",
-                                            lineNumber: 74,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "Start times: Tot Trot 8:30am, main event 9:00am."
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/SiteFooter.tsx",
-                                            lineNumber: 75,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 69,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/SiteFooter.tsx",
-                            lineNumber: 53,
+                            lineNumber: 67,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -302,7 +282,7 @@ function SiteFooter() {
                                     children: "Contact"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 90,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -311,7 +291,7 @@ function SiteFooter() {
                                     children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContact"].emailShowroom
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 81,
+                                    lineNumber: 91,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -320,13 +300,13 @@ function SiteFooter() {
                                     children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["siteContact"].phone
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SiteFooter.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 97,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/SiteFooter.tsx",
-                            lineNumber: 79,
+                            lineNumber: 89,
                             columnNumber: 11
                         }, this)
                     ]
@@ -349,7 +329,7 @@ function SiteFooter() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/SiteFooter.tsx",
-                lineNumber: 97,
+                lineNumber: 107,
                 columnNumber: 7
             }, this)
         ]
@@ -462,7 +442,7 @@ function PageShell({ activeLabel, hero, children }) {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "container relative z-10 mx-auto",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative max-w-4xl",
+                                className: "relative max-w-5xl",
                                 children: [
                                     hero.eyebrow ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-white sm:text-sm",

@@ -21,18 +21,18 @@ const swagItems: SwagItem[] = [
   {
     title: "Custom Finisher Medal",
     body: "A larger preview of the race medal so participants can see the design details before race day.",
-    image:"https://scontent.fdel65-3.fna.fbcdn.net/v/t39.30808-6/651228657_27353916834208366_1055685908025924740_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=13d280&_nc_ohc=mG2DkZJZRe4Q7kNvwF_sfOK&_nc_oc=AdrdTSGOx-nMs3W3xkBvRCtVVTXbdGlK4Lv85NjtTl2SzylBQLax8nEgziDl4_wfP5cxVFhWPMhP_c6_jJSVmPmy&_nc_zt=23&_nc_ht=scontent.fdel65-3.fna&_nc_gid=zoyJjTm6CxWMzj9YqSVkrQ&_nc_ss=7b2a8&oh=00_Af2x8UbUvxxUcU-JoIs-9B-nQn4ivwEWefrMDTVCgE5EOQ&oe=69F92FE1",
+    image:"/madel.jpg",
   },
   {
     title: "Official Race Shirt",
     body: "Commemorative long-sleeve race shirt included with registration while supplies last.",
-    image: "https://scontent.fdel65-1.fna.fbcdn.net/v/t39.30808-6/651335902_27353946610872055_233127597016579799_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=13d280&_nc_ohc=IY5YHqecDTgQ7kNvwGV2F53&_nc_oc=Ado0Fo0KsQqWpqij_VNOpX5YoNR67rkuVa4su9p0m_5J_tTLW6zllb_JcF0vzg_OTO_yMXqvdk5EzEsfff8bqeIe&_nc_zt=23&_nc_ht=scontent.fdel65-1.fna&_nc_gid=iSQDf3XZiKRx2FKIFIAJFQ&_nc_ss=7b2a8&oh=00_Af0u3ASW64r7tASrDM3MIir5WmXOpuM1MlMqSznKmRcJAA&oe=69F93075",
+    image: "/shirt.jpg",
   },
   {
     title: "Finish Line Keepsakes",
     body: "Custom finisher medal and holiday race-day memories to celebrate your Thanksgiving run.",
     image:
-      "https://scontent.fdel65-2.fna.fbcdn.net/v/t39.30808-6/481098071_1252847966846826_8977792373764848354_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=7b2446&_nc_ohc=T9pr04Bm6oIQ7kNvwH5qDKz&_nc_oc=Adp1AKSNeZJCkTobxuvz9BzzOIXmwC52yv4b_4kym_nO3n4Jaj6rbJWU7pNMuDM2-2WpjLy27kd8gSsQafrfO0-o&_nc_zt=23&_nc_ht=scontent.fdel65-2.fna&_nc_gid=R4Xqe7uA1Qus5AWfF413Rw&_nc_ss=7b2a8&oh=00_Af1eebEb1beVBcolfYA3A8eHTUsZcRmsGE_GjNW8qlUdKw&oe=69F91C66",
+      "/finishline.jpg",
   },
 
 ];
@@ -45,7 +45,7 @@ export default function SwagPage() {
         eyebrow: "Swag",
         title: "Run It. Celebrate It.",
         subtitle: "Thanksgiving race-day perks include participant shirt, finisher medal, and festive community energy.",
-        imageUrl: "https://scontent.fdel65-3.fna.fbcdn.net/v/t39.30808-6/481194774_1252847970180159_5907388455606235312_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=7b2446&_nc_ohc=LNEj2vaIDB8Q7kNvwGl78fK&_nc_oc=AdogDdI0Rgc9X_nKxzsuTQ3RfiVRE9ld_opWALBlyyy5ScGY6bArNHcBVS84kOqNqG6RW1a9FeGF4skXdCv4Xdm5&_nc_zt=23&_nc_ht=scontent.fdel65-3.fna&_nc_gid=MNkjP_CKaaDVthAisqB5Zg&_nc_ss=7b2a8&oh=00_Af73jMXnOhEqCu2KSEJlBOYYjZ3Y36DZuianVF4TffjBkA&oe=69FA9B3A",
+        imageUrl: "/run.jpg",
       }}
     >
       {/* <section className="px-4 pt-10 sm:px-8 sm:pt-14">

@@ -442,7 +442,7 @@ function PageShell({ activeLabel, hero, children }) {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "container relative z-10 mx-auto",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative max-w-4xl",
+                                className: "relative max-w-5xl",
                                 children: [
                                     hero.eyebrow ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-white sm:text-sm",
@@ -548,10 +548,9 @@ function QuestionsPage() {
             eyebrow: "Questions",
             title: "We're Here To Help",
             subtitle: "Need help with registration, packet pickup, or race-day details? Reach out anytime.",
-            imageUrl: "https://scontent-del3-1.xx.fbcdn.net/v/t39.30808-6/653971864_27357222310544485_3068443002176273656_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=13d280&_nc_ohc=QAK_pqKXc2QQ7kNvwEZYLaI&_nc_oc=AdrX6x3U-UG1s4PDZv-QgHcCBydlpnz2XoI4DDyXkGb-eFrpRXl1zQse8M_BNCSPloRqkrdwAGSHN2DLtFXckoom&_nc_zt=23&_nc_ht=scontent-del3-1.xx&_nc_gid=DUkmMc8r6AJd1WJHQ_jDsg&_nc_ss=7b2a8&oh=00_Af5oYLzsgSoinCgdFsEgxlHfnSWtO8bdhAqlfHmKzxhDmg&oe=69FA2B66"
+            imageUrl: "/question.jpg"
         },
         children: [
-            'emailShowroom: "jeff@ultrafitusa.com", emailOperations: "jeff@ultrafitusa.com", phone: "614-332-5205",',
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "px-4 py-10 sm:px-8 sm:py-14",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -566,7 +565,7 @@ function QuestionsPage() {
                                     strokeWidth: 2.2
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 48,
+                                    lineNumber: 45,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -574,7 +573,7 @@ function QuestionsPage() {
                                     children: "Call Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 46,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -582,13 +581,13 @@ function QuestionsPage() {
                                     children: "614-332-5205"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 50,
+                                    lineNumber: 47,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/questions/page.tsx",
-                            lineNumber: 44,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -600,7 +599,7 @@ function QuestionsPage() {
                                     strokeWidth: 2.2
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 56,
+                                    lineNumber: 53,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -608,7 +607,7 @@ function QuestionsPage() {
                                     children: "Email Us"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 57,
+                                    lineNumber: 54,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -616,13 +615,13 @@ function QuestionsPage() {
                                     children: "jeff@ultrafitusa.com"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 55,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/questions/page.tsx",
-                            lineNumber: 52,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -634,7 +633,7 @@ function QuestionsPage() {
                                     strokeWidth: 2.2
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 61,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -642,7 +641,7 @@ function QuestionsPage() {
                                     children: "Event Info"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 65,
+                                    lineNumber: 62,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -650,24 +649,24 @@ function QuestionsPage() {
                                     children: "See race details, distance options, and registration links."
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/questions/page.tsx",
-                            lineNumber: 60,
+                            lineNumber: 57,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/questions/page.tsx",
-                    lineNumber: 43,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/questions/page.tsx",
-                lineNumber: 42,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -680,7 +679,7 @@ function QuestionsPage() {
                             children: "FAQ"
                         }, void 0, false, {
                             fileName: "[project]/src/app/questions/page.tsx",
-                            lineNumber: 73,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -693,7 +692,7 @@ function QuestionsPage() {
                                             children: item.question
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/questions/page.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 74,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -701,29 +700,29 @@ function QuestionsPage() {
                                             children: item.answer
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/questions/page.tsx",
-                                            lineNumber: 78,
+                                            lineNumber: 75,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, item.question, true, {
                                     fileName: "[project]/src/app/questions/page.tsx",
-                                    lineNumber: 76,
+                                    lineNumber: 73,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/questions/page.tsx",
-                            lineNumber: 74,
+                            lineNumber: 71,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/questions/page.tsx",
-                    lineNumber: 72,
+                    lineNumber: 69,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/questions/page.tsx",
-                lineNumber: 71,
+                lineNumber: 68,
                 columnNumber: 7
             }, this)
         ]

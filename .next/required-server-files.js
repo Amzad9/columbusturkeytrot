@@ -67,6 +67,30 @@ self.__SERVER_FILES_MANIFEST={
         {
           "protocol": "https",
           "hostname": "images.unsplash.com"
+        },
+        {
+          "protocol": "https",
+          "hostname": "https://scontent.fdel65-3.fna.fbcdn.net"
+        },
+        {
+          "protocol": "https",
+          "hostname": "https://scontent.fdel65-1.fna.fbcdn.net"
+        },
+        {
+          "protocol": "https",
+          "hostname": "https://scontent.fdel65-2.fna.fbcdn.net"
+        },
+        {
+          "protocol": "https",
+          "hostname": "https://scontent.fdel65-3.fna.fbcdn.net"
+        },
+        {
+          "protocol": "https",
+          "hostname": "https://scontent.fdel65-1.fna.fbcdn.net"
+        },
+        {
+          "protocol": "https",
+          "hostname": "https://scontent.fdel65-2.fna.fbcdn.net"
         }
       ],
       "qualities": [

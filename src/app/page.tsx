@@ -29,21 +29,13 @@ export default function Home() {
 
         <section
           id="home"
-          className="relative overflow-hidden px-4 bg-[#1e252d] pt-8 pb-8"
+          className="relative overflow-hidden px-4 bg-[#1e252d] pt-18 pb-8"
         >
-          {/* <div className="absolute inset-0">
-            <Image
-              src="https://images.unsplash.com/photo-1502904550040-7534597429ae?auto=format&fit=crop&w=1400&q=80"
-              alt="Columbus Turkey Trot event background"
-              fill
-              className="object-cover opacity-35"
-              priority
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#171b22]/95 via-[#1c232b]/85 to-[#1c232b]/35" />
-          </div> */}
+         
           <div className="container mx-auto">
             <div className="relative z-10 grid gap-6 lg:grid-cols-2 lg:items-center">
               <div className="max-w-7xl">
+              
                 <h1 className="text-4xl md:text-4xl font-black uppercase leading-[0.92] text-[#00a2e7]">
                 2026 Columbus Turkey Trot
                 </h1>
@@ -53,8 +45,9 @@ export default function Home() {
                 </p>
                 <p className="mt-3 text-2xl font-semibold text-[#f3d27d] sm:text-4xl">Columbus, Ohio 11/26/2026</p>
                 <p className="mt-5 max-w-4xl text-lg leading-9 text-white/95 sm:text-2xl sm:leading-[1.3]">
-                  Join one of Columbus's favorite Thanksgiving traditions. Choose your event and
-                  celebrate race morning with family, friends, and the local running community.
+                  Join one of Columbus&apos;s favorite Thanksgiving traditions as we celebrate our 40th
+                  Anniversary with a new 4-mile course. Choose your event and celebrate race morning
+                  with family, friends, and the local running community.
                 </p>
                 <div className="mt-7">
                   <Link
@@ -96,7 +89,7 @@ export default function Home() {
             {[
               {
                 title: "Race Morning Events",
-                body: "4-Mile, 2.4-Mile Walk N' Talk, Tot Trot for kids, plus a virtual option.",
+                body: "New 4-Mile course, 2.4-Mile Walk N' Talk, Tot Trot for kids, plus a virtual option.",
               },
               {
                 title: "Thanksgiving Tradition",
@@ -138,7 +131,7 @@ export default function Home() {
             </div>
             <div className="relative min-h-[300px] overflow-hidden rounded-3xl border border-white/15">
               <Image
-                src="https://scontent.fdel65-1.fna.fbcdn.net/v/t39.30808-6/481246877_1252847743513515_83710218392544829_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=S4zioeVDHmEQ7kNvwFIWHuN&_nc_oc=Ado9uWhpBOsrqx2kZZfMNLeB-V3KXIWrazmgBJl_k6w4Nu8PO0Aknpn-tRw_SM1jI9YztvHV5vUxSMDCi73qIhZk&_nc_zt=23&_nc_ht=scontent.fdel65-1.fna&_nc_gid=nVY_38GrjRM5jU6p5Sokjw&_nc_ss=7b2a8&oh=00_Af25AxwkHaf13_OkLP5HrlaLPiIkawGVntRnqFcl4DK-lQ&oe=69F9519B"
+                src="/features.jpg"
                 alt="Women at finish line"
                 fill
                 className="object-cover"
@@ -181,7 +174,7 @@ export default function Home() {
           <div className="container mx-auto grid gap-6 lg:grid-cols-[0.5fr_1fr]">
             <div className="relative min-h-[250px] overflow-hidden rounded-3xl border border-white/15">
               <Image
-                src="https://scontent.fdel65-3.fna.fbcdn.net/v/t39.30808-6/481115497_1252847920180164_4878413604730860644_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=7b2446&_nc_ohc=oPBRj_zzxXYQ7kNvwFV_3E7&_nc_oc=AdpyMlHXfsyEMdCbBo_Vu4mAF7G_6Be2_hivzo5dkHMATjSqa9EBYuBbelUt_WQzQ8iA3YTr5zCCNjdgqV4cLp4p&_nc_zt=23&_nc_ht=scontent.fdel65-3.fna&_nc_gid=-asyoCmZH07qfQyZdWkwgA&_nc_ss=7b2a8&oh=00_Af0bPGcocnn7OPuUvGEA42AmGuk5VZjF3w1g4GkyogmeTQ&oe=69F94926"
+                src="/event.jpg"
                 alt="Event director"
                 fill
                 className="object-cover"

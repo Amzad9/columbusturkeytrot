@@ -31,13 +31,13 @@ export default function AboutPage() {
         eyebrow: "About",
         title: (
           <>
-            The Columbus Turkey Trot: A Family
-            Tradition
+            The Columbus Turkey Trot: <br/>
+            A Family Tradition
           </>
         ),
         subtitle:
           "The Columbus Turkey Trot brings runners, walkers, kids, and families together for a fun Thanksgiving morning tradition.",
-        imageUrl: "https://scontent.fdel65-2.fna.fbcdn.net/v/t39.30808-6/488201443_1280358300762459_5014584882957390548_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=2a1932&_nc_ohc=smK3cvsD-PwQ7kNvwGLKE9B&_nc_oc=AdokiklSRmXZiUI06wRSpKcrYWs93W4sj8RuWuxHFZs2HRCDoFlyYkB5nWvoGTB9JVCPHjCS7MXbz9VqZCCnsUat&_nc_zt=23&_nc_ht=scontent.fdel65-2.fna&_nc_gid=CzJqkU3yBI6jSeoj6kH5ig&_nc_ss=7b2a8&oh=00_Af1MNOZzMMI96yUoWCLBjhb0S217UwUa__Wx6RInAgrqOg&oe=69F924B5",
+        imageUrl: "/finishline.jpg",
       }}
     >
       <section id="mission" className="px-4 py-10 sm:px-8 sm:py-14">
@@ -75,7 +75,7 @@ export default function AboutPage() {
           <div className="lg:col-span-5">
             <div className="relative min-h-[280px] overflow-hidden rounded-3xl border border-white/15 bg-white/5 shadow-[0_18px_44px_rgba(0,0,0,0.30)] sm:min-h-[360px]">
               <Image
-                src="https://scontent.fdel65-2.fna.fbcdn.net/v/t39.30808-6/481442902_1252848036846819_3317941550059060590_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7b2446&_nc_ohc=12QInHBrbBgQ7kNvwE3Btav&_nc_oc=AdpDeb-GMLCItqFq-TEF4XAG-mszdr-oSZ7_D-etdtPEBlHh5adKoO-7JYY6yqdXZ7iHCkjMfk2Dy0uGQGG5MV7y&_nc_zt=23&_nc_ht=scontent.fdel65-2.fna&_nc_gid=Vg3LTMHc2CDV-lLUR9KIOQ&_nc_ss=7b2a8&oh=00_Af2dHPBI4vFDDtYWXPokjOj3INyKsHJXf_R3lWWvfLTeEw&oe=69F932C9"
+                src="/mission.jpg"
                 alt="Women runners at the finish line"
                 fill
                 className="object-cover"

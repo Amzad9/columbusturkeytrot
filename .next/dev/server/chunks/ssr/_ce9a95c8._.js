@@ -13,7 +13,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "https://www.columbusturkeytrot.com");
 const siteTitle = "2026 Columbus Turkey Trot";
-const siteDescription = "Thanksgiving Day race in Columbus, Ohio featuring a 5-Mile, Walk N' Talk, Tot Trot, and virtual option supporting Easterseals.";
+const siteDescription = "Celebrate the 40th Anniversary of the Columbus Turkey Trot — Thanksgiving Day in Columbus, Ohio featuring a new 4-Mile course, Walk N' Talk, Tot Trot, and a virtual option supporting Easterseals.";
 const metadata = {
     metadataBase: new URL(siteUrl),
     title: {
@@ -56,12 +56,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 52,
+            lineNumber: 53,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 51,
+        lineNumber: 52,
         columnNumber: 5
     }, this);
 }

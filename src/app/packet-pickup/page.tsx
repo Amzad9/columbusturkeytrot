@@ -19,7 +19,7 @@ const pickupDates = [
 const checklistItems = [
   "Photo ID (recommended for faster check-in)",
   "Registration confirmation email on your phone",
-  "Runner name and event choice (5-Mile, Walk N' Talk, or Tot Trot)",
+  "Runner name and event choice (4-Mile, Walk N' Talk, or Tot Trot)",
   "Comfortable timing to avoid race-morning lines",
 ];
 
@@ -39,7 +39,7 @@ export default function PacketPickupPage() {
         title: "Packet Pickup & Race Morning",
         subtitle: "Use one of our pickup windows to save time and start race morning stress-free.",
         imageUrl:
-          "https://scontent.fdel65-2.fna.fbcdn.net/v/t39.30808-6/481706957_1252847590180197_3677655623441193262_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7b2446&_nc_ohc=xF7vgc4Dv_UQ7kNvwFbU24O&_nc_oc=AdqAjXd34YvUlKF9Lr_RwHnK5iVWuwZ0TkNKtOejurHnDQ6Be6Z501lnTpdFrvP3NytxnBRrTm_f9Nm3tvOJ3SUY&_nc_zt=23&_nc_ht=scontent.fdel65-2.fna&_nc_gid=ejK2xdsCikeTN9wo_mzfaw&_nc_ss=7b2a8&oh=00_Af1bsewVdxWp_h2VohFB50oX7822zGbBokBDCXYgDrZ-QA&oe=69F9483B",
+          "/morning.jpg",
       }}
     >
       <section className="px-4 py-10 sm:px-8 sm:py-14">

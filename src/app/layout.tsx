@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import "./globals.css";
 
 const siteUrl =
@@ -7,7 +8,7 @@ const siteUrl =
 
 const siteTitle = "2026 Columbus Turkey Trot";
 const siteDescription =
-  "Thanksgiving Day race in Columbus, Ohio featuring a 5-Mile, Walk N' Talk, Tot Trot, and virtual option supporting Easterseals.";
+  "Celebrate the 40th Anniversary of the Columbus Turkey Trot — Thanksgiving Day in Columbus, Ohio featuring a new 4-Mile course, Walk N' Talk, Tot Trot, and a virtual option supporting Easterseals.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -49,7 +50,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {/* <Link
+          href="/"
+          aria-label="40th Anniversary"
+          className="fixed left-3 top-[6%] z-60 flex items-center gap-2 rounded-full border border-white/20 bg-[#1f252d]/95 px-3 py-2 shadow-[0_10px_25px_rgba(0,0,0,0.45)] backdrop-blur transition hover:brightness-110"
+        >
+          <span className="relative h-9 w-9 overflow-hidden rounded-full border border-white/15 bg-white/5">
+            <img src="/40.jpg" alt="" className="h-full w-full object-cover" />
+          </span>
+          <span className="text-xs font-black uppercase tracking-[0.12em] text-[#f0d07a]">
+            40th Anniversary
+          </span>
+        </Link> */}
+        {children}
+      </body>
     </html>
   );
 }

@@ -53,9 +53,9 @@ const siteNav = [
     }
 ];
 const siteContact = {
-    emailShowroom: "jeff@ultrafitusa.com",
-    emailOperations: "jeff@ultrafitusa.com",
-    phone: "614-332-5205",
+    emailShowroom: "info@columbusturkeytrot.com",
+    emailOperations: "info@columbusturkeytrot.com",
+    phone: "(614) 545-2268",
     phoneHref: "tel:+16145452268",
     addressLines: [
         "Shops on Lane Avenue",
@@ -442,7 +442,7 @@ function PageShell({ activeLabel, hero, children }) {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "container relative z-10 mx-auto",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative max-w-4xl",
+                                className: "relative max-w-5xl",
                                 children: [
                                     hero.eyebrow ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-white sm:text-sm",
@@ -560,10 +560,18 @@ function AboutPage() {
         hero: {
             eyebrow: "About",
             title: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
-                children: "The Columbus Turkey Trot: A Family Tradition"
-            }, void 0, false),
+                children: [
+                    "The Columbus Turkey Trot: ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                        fileName: "[project]/src/app/about/page.tsx",
+                        lineNumber: 34,
+                        columnNumber: 39
+                    }, void 0),
+                    "A Family Tradition"
+                ]
+            }, void 0, true),
             subtitle: "The Columbus Turkey Trot brings runners, walkers, kids, and families together for a fun Thanksgiving morning tradition.",
-            imageUrl: "https://scontent.fdel65-2.fna.fbcdn.net/v/t39.30808-6/488201443_1280358300762459_5014584882957390548_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=2a1932&_nc_ohc=smK3cvsD-PwQ7kNvwGLKE9B&_nc_oc=AdokiklSRmXZiUI06wRSpKcrYWs93W4sj8RuWuxHFZs2HRCDoFlyYkB5nWvoGTB9JVCPHjCS7MXbz9VqZCCnsUat&_nc_zt=23&_nc_ht=scontent.fdel65-2.fna&_nc_gid=CzJqkU3yBI6jSeoj6kH5ig&_nc_ss=7b2a8&oh=00_Af1MNOZzMMI96yUoWCLBjhb0S217UwUa__Wx6RInAgrqOg&oe=69F924B5"
+            imageUrl: "/finishline.jpg"
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -632,7 +640,7 @@ function AboutPage() {
                                 className: "relative min-h-[280px] overflow-hidden rounded-3xl border border-white/15 bg-white/5 shadow-[0_18px_44px_rgba(0,0,0,0.30)] sm:min-h-[360px]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "https://scontent.fdel65-2.fna.fbcdn.net/v/t39.30808-6/481442902_1252848036846819_3317941550059060590_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7b2446&_nc_ohc=12QInHBrbBgQ7kNvwE3Btav&_nc_oc=AdpDeb-GMLCItqFq-TEF4XAG-mszdr-oSZ7_D-etdtPEBlHh5adKoO-7JYY6yqdXZ7iHCkjMfk2Dy0uGQGG5MV7y&_nc_zt=23&_nc_ht=scontent.fdel65-2.fna&_nc_gid=Vg3LTMHc2CDV-lLUR9KIOQ&_nc_ss=7b2a8&oh=00_Af2dHPBI4vFDDtYWXPokjOj3INyKsHJXf_R3lWWvfLTeEw&oe=69F932C9",
+                                        src: "/mission.jpg",
                                         alt: "Women runners at the finish line",
                                         fill: true,
                                         className: "object-cover"

@@ -52,7 +52,7 @@ export default function PageShell({ activeLabel, hero, children }: PageShellProp
             <div className="absolute inset-0 z-1 bg-linear-to-r from-[#171b22]/95 via-[#1c232b]/70 to-[#1c232b]/20" />
 
             <div className="container relative z-10 mx-auto">
-              <div className="relative max-w-4xl">
+              <div className="relative max-w-5xl">
                 {hero.eyebrow ? (
                   <p className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-white sm:text-sm">
                     {hero.eyebrow}

@@ -53,9 +53,9 @@ const siteNav = [
     }
 ];
 const siteContact = {
-    emailShowroom: "jeff@ultrafitusa.com",
-    emailOperations: "jeff@ultrafitusa.com",
-    phone: "614-332-5205",
+    emailShowroom: "info@columbusturkeytrot.com",
+    emailOperations: "info@columbusturkeytrot.com",
+    phone: "(614) 545-2268",
     phoneHref: "tel:+16145452268",
     addressLines: [
         "Shops on Lane Avenue",
@@ -442,7 +442,7 @@ function PageShell({ activeLabel, hero, children }) {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "container relative z-10 mx-auto",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "relative max-w-4xl",
+                                className: "relative max-w-5xl",
                                 children: [
                                     hero.eyebrow ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.22em] text-white sm:text-sm",
@@ -538,7 +538,7 @@ const pickupDates = [
 const checklistItems = [
     "Photo ID (recommended for faster check-in)",
     "Registration confirmation email on your phone",
-    "Runner name and event choice (5-Mile, Walk N' Talk, or Tot Trot)",
+    "Runner name and event choice (4-Mile, Walk N' Talk, or Tot Trot)",
     "Comfortable timing to avoid race-morning lines"
 ];
 const proxyRules = [
@@ -554,7 +554,7 @@ function PacketPickupPage() {
             eyebrow: "Packet Pickup",
             title: "Packet Pickup & Race Morning",
             subtitle: "Use one of our pickup windows to save time and start race morning stress-free.",
-            imageUrl: "https://scontent.fdel65-2.fna.fbcdn.net/v/t39.30808-6/481706957_1252847590180197_3677655623441193262_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7b2446&_nc_ohc=xF7vgc4Dv_UQ7kNvwFbU24O&_nc_oc=AdqAjXd34YvUlKF9Lr_RwHnK5iVWuwZ0TkNKtOejurHnDQ6Be6Z501lnTpdFrvP3NytxnBRrTm_f9Nm3tvOJ3SUY&_nc_zt=23&_nc_ht=scontent.fdel65-2.fna&_nc_gid=ejK2xdsCikeTN9wo_mzfaw&_nc_ss=7b2a8&oh=00_Af1bsewVdxWp_h2VohFB50oX7822zGbBokBDCXYgDrZ-QA&oe=69F9483B"
+            imageUrl: "/morning.jpg"
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {

@@ -2,10 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+import { Facebook, Instagram, Mail, MapPin, Menu, Phone, X, Youtube } from "lucide-react";
 import { useEffect, useState } from "react";
 
-import { siteNav } from "./siteConfig";
+import { siteContact, siteNav } from "./siteConfig";
 
 export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -27,7 +27,79 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-30 px-4 pt-1 bg-[#232a33]">
+      <header className="fixed inset-x-0 top-0 z-30 px-0 pt-1 bg-[#232a33]">
+      <div className="w-full border-b border-white/10 bg-[#0c1016]">
+        <div className="container mx-auto flex flex-col items-center justify-between gap-2 px-3 py-2 text-center sm:flex-row sm:text-left">
+          <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[12px] text-white/80 sm:justify-start">
+            <a href={siteContact.phoneHref} className="inline-flex items-center gap-2 transition hover:text-white">
+              <Phone className="h-4 w-4 text-[#f0d07a]" strokeWidth={2.2} />
+              <span>{siteContact.phone}</span>
+            </a>
+            <a
+              href={`mailto:${siteContact.emailShowroom}`}
+              className="inline-flex items-center gap-2 transition hover:text-white"
+            >
+              <Mail className="h-4 w-4 text-[#f0d07a]" strokeWidth={2.2} />
+              <span>{siteContact.emailShowroom}</span>
+            </a>
+            <a
+              href={siteContact.directionsHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 transition hover:text-white"
+            >
+              <MapPin className="h-4 w-4 text-[#f0d07a]" strokeWidth={2.2} />
+              <span className="truncate max-w-[80vw] sm:max-w-none">{siteContact.addressLines.join(" ")}</span>
+            </a>
+          </div>
+
+          <div className="flex items-center justify-center gap-3 sm:justify-end">
+            <a
+              href={siteContact.socials.find((s) => s.key === "instagram")?.href ?? "#"}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/85 transition hover:bg-white/10 hover:text-white"
+            >
+              <Instagram className="h-4 w-4" strokeWidth={2.2} />
+            </a>
+            <a
+              href={siteContact.socials.find((s) => s.key === "facebook")?.href ?? "#"}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/85 transition hover:bg-white/10 hover:text-white"
+            >
+              <Facebook className="h-4 w-4" strokeWidth={2.2} />
+            </a>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/85 transition hover:bg-white/10 hover:text-white"
+            >
+              <Youtube className="h-4 w-4" strokeWidth={2.2} />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full border-b border-white/10 bg-[#11161d]">
+        <div className="container mx-auto hidden items-center justify-center gap-2 px-3 py-2 text-center sm:flex sm:flex-row sm:gap-x-3 sm:gap-y-1">
+          <span className="relative h-6 w-6 shrink-0 overflow-hidden rounded-full border border-white/15 bg-white/5">
+            <Image src="/40.jpg" alt="40th Anniversary" fill className="object-cover" />
+          </span>
+          <div className="flex flex-wrap items-center justify-center gap-2 sm:justify-start">
+            <span className="rounded-full bg-[#f0d07a] px-3 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-[#11161d] sm:text-[11px]">
+              40th Anniversary
+            </span>
+            <span className="rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-white sm:text-[11px]">
+              New 4 Mile Course
+            </span>
+          </div>
+        </div>
+      </div>
       <div className="container mx-auto flex items-center justify-between gap-4  px-3 py-1  sm:px-5">
         <Link
           href="/"
@@ -153,7 +225,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
         </nav>
       </div>
       </header>
-      <div aria-hidden className="h-[92px] sm:h-[108px]" />
+      <div aria-hidden className="h-[232px] sm:h-[172px]" />
     </>
   );
 }

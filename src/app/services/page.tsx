@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 const proposalPoints = [
-  "5-Mile, 2.6-Mile Walk N' Talk, Tot Trot, and virtual options",
+  "New 4-Mile course, 2.4-Mile Walk N' Talk, Tot Trot, and virtual options",
   "Thanksgiving Day atmosphere with costumes and community spirit",
   "Proceeds benefit Easterseals of Central and Southeast Ohio",
 ];
@@ -31,8 +31,8 @@ export default function ServicesPage() {
           <div className="container mx-auto">
             <div className="grid gap-6 md:grid-cols-3">
               {[
-                { title: "5-Mile", body: "The signature Columbus Turkey Trot distance for Thanksgiving morning." },
-                { title: "2.6-Mile Walk N' Talk", body: "A social walk option for participants of all experience levels." },
+                { title: "4-Mile", body: "The signature Columbus Turkey Trot distance for Thanksgiving morning." },
+                { title: "2.4-Mile Walk N' Talk", body: "A social walk option for participants of all experience levels." },
                 { title: "Tot Trot", body: "A 100-yard kids dash that starts before the main event." },
               ].map((item) => (
                 <article
