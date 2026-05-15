@@ -1,0 +1,9 @@
+{
+  "/about/page": "app/about/page.js",
+  "/event-details/page": "app/event-details/page.js",
+  "/our-beneficiary/page": "app/our-beneficiary/page.js",
+  "/packet-pickup/page": "app/packet-pickup/page.js",
+  "/page": "app/page.js",
+  "/questions/page": "app/questions/page.js",
+  "/swag/page": "app/swag/page.js"
+}

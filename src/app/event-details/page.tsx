@@ -121,7 +121,7 @@ export default function EventDetailsPage() {
               <p className="flex items-center gap-2 text-sm font-black uppercase tracking-wider text-white/85">
                 <CalendarDays className="h-4 w-4" /> Date
               </p>
-              <p className="mt-2 text-lg text-white">Thursday, November 27, 2026</p>
+              <p className="mt-2 text-lg text-white">Thursday, November 26th, 2026</p>
             </div>
             <div className="rounded-2xl border border-white/15 bg-white/5 p-4">
               <p className="flex items-center gap-2 text-sm font-black uppercase tracking-wider text-white/85">
