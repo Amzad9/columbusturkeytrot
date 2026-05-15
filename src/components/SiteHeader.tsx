@@ -106,21 +106,43 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
           className="flex min-w-0 shrink-0 items-center"
           aria-label="Columbus Turkey Trot"
         >
-          <div className="relative overflow-hidden rounded-md bg-transparent h-24 w-60">
+          <div className="relative overflow-hidden rounded-md bg-transparent h-24 w-32">
             <Image
-              src="/logo.jpg"
+              src="/logo.png"
               alt="Columbus Turkey Trot logo"
               fill
               className="object-contain"
               priority
             />
           </div>
-          {/* <div className="min-w-0">
-            <h2 className="text-base font-black uppercase leading-none tracking-[0.04em] text-white sm:text-lg lg:text-xl">
-              <span className="block whitespace-nowrap">TTURKEY TROT 2026</span>
+          <div className="min-w-0">
+            <div className="mb-1 flex items-center gap-2">
+              <div className="relative h-10 w-32 overflow-hidden">
+                <Image
+                  src="/chase.png"
+                  alt="Chase logo"
+                  fill
+                  sizes="56px"
+                  className="object-contain"
+                  priority
+                />
+              </div>
+              <div className="relative h-8 w-14 overflow-hidden">
+                <Image
+                  src="/Chaselogo1.jpg"
+                  alt="Chase logo"
+                  fill
+                  sizes="56px"
+                  className="object-contain"
+                  priority
+                />
+              </div>
+            </div>
+            <h2 className="text-base font-black leading-none tracking-[0.04em] text-[#00a2e7] md:text-lg">
+              <span className="block whitespace-nowrap">Columbus Turkey Trot 26</span>
             </h2>
            
-          </div> */}
+          </div>
         </Link>
 
         <button

@@ -84,6 +84,8 @@ export default function Home() {
           </div>
         </section>
 
+       
+
         <section id="swag" className="mt-4  bg-[#212831]">
           <div className="container mx-auto grid gap-4 md:grid-cols-3">
             {[
@@ -105,6 +107,170 @@ export default function Home() {
                 <p className="mt-2 text-xl leading-8 text-white/90">{item.body}</p>
               </article>
             ))}
+          </div>
+        </section>
+        <section id="finish-line-food" className="mt-4 bg-[#1d232b] px-4 py-10 sm:px-8">
+          <div className="container mx-auto">
+            <div className="rounded-[28px] border border-white/15 bg-white/5 p-6 sm:p-10">
+              <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
+                <div>
+                  <p className="text-xs font-black uppercase tracking-[0.22em] text-white/70">
+                    Finish Line Celebration
+                  </p>
+                  <h2 className="mt-2 text-3xl font-black uppercase leading-none text-[#f3d27d] sm:text-4xl">
+                    Finish Line Food Celebration
+                  </h2>
+                  <p className="mt-4 max-w-3xl text-lg leading-8 text-white/90 sm:text-xl">
+                    Cross the line, grab your medal, and keep the holiday vibes going with a family-friendly food
+                    celebration powered by our sponsors.
+                  </p>
+                </div>
+                <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.12em] text-white/90">
+                  <span className="h-2 w-2 rounded-full bg-[#1c9a64]" aria-hidden />
+                  Finisher Perks Included
+                </div>
+              </div>
+
+              <div className="mt-8 grid gap-6 lg:grid-cols-2">
+                <article className="group overflow-hidden rounded-3xl border border-white/15 bg-[#1e252d] shadow-[0_18px_44px_rgba(0,0,0,0.25)]">
+                  <div className="relative aspect-video w-full">
+                    <Image src="/dominoz.png" alt="Domino's Pizza sponsor placeholder" fill className="object-cover" />
+                    <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent" />
+                    <div className="absolute left-5 top-5 inline-flex items-center rounded-full border border-white/15 bg-black/40 px-3 py-2 text-xs font-black uppercase tracking-[0.14em] text-white backdrop-blur">
+                      Domino&apos;s Pizza
+                    </div>
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-black uppercase tracking-tight text-white sm:text-2xl">
+                      Every finisher gets a 12-inch pizza
+                    </h3>
+                    <ul className="mt-4 space-y-2 text-base leading-7 text-white/85 sm:text-lg">
+                      <li>
+                        <span className="font-semibold text-white">12-inch pizza</span> for every finisher.
+                      </li>
+                      <li>
+                        Pizza box includes a <span className="font-semibold text-white">redemption certificate</span>.
+                      </li>
+                      <li>
+                        Redeem at your <span className="font-semibold text-white">local Domino&apos;s location</span>.
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article className="group overflow-hidden rounded-3xl border border-white/15 bg-[#1e252d] shadow-[0_18px_44px_rgba(0,0,0,0.25)]">
+                  <div className="relative aspect-video w-full">
+                    <Image src="/Skyline.png" alt="Skyline Chili sponsor placeholder" fill className="object-cover" />
+                    <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent" />
+                    <div className="absolute left-5 top-5 inline-flex items-center rounded-full border border-white/15 bg-black/40 px-3 py-2 text-xs font-black uppercase tracking-[0.14em] text-white backdrop-blur">
+                      Skyline Chili
+                    </div>
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-black uppercase tracking-tight text-white sm:text-2xl">
+                      Famous coney dogs at the finish line
+                    </h3>
+                    <ul className="mt-4 space-y-2 text-base leading-7 text-white/85 sm:text-lg">
+                      <li>
+                        Served <span className="font-semibold text-white">at the finish line</span>.
+                      </li>
+                      <li>
+                        Enjoy their <span className="font-semibold text-white">classic coney dogs</span>.
+                      </li>
+                      <li>
+                        Perfect for a <span className="font-semibold text-white">holiday family celebration</span>.
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="whats-new" className="mt-5 bg-[#1d232b] px-4 py-8 sm:px-8">
+          <div className="container mx-auto">
+            <div className="rounded-[28px] border border-white/15 bg-white/5 p-6 shadow-[0_18px_44px_rgba(0,0,0,0.30)] sm:p-10">
+              <div className="grid gap-6 lg:grid-cols-[1fr_0.9fr] lg:items-start">
+                <div>
+              <p className="text-xs font-black uppercase tracking-[0.18em] text-white/75">
+                What&apos;s New In &apos;26
+              </p>
+              <h2 className="mt-3 text-3xl font-black uppercase leading-[0.95] tracking-tight text-[#f3d27d] sm:text-4xl lg:text-5xl">
+                40th Anniversary Updates
+              </h2>
+              <p className="mt-4 max-w-5xl text-base leading-7 text-white/90 sm:text-lg sm:leading-8">
+                Join us in celebrating our 40th Year Anniversary with exciting changes to the 2026
+                Chase Columbus Turkey Trot, benefiting Easterseals of Central and Southeast Ohio.
+                We&apos;re thrilled to announce updates that will enhance your experience while making
+                a meaningful impact on the lives of those with disabilities.
+              </p>
+                </div>
+
+                <div className="relative overflow-hidden rounded-3xl border border-white/15 bg-[#1e252d] shadow-[0_18px_44px_rgba(0,0,0,0.25)]">
+                  <div className="relative aspect-16/10 w-full">
+                    <Image
+                      src="/40.jpg"
+                      alt="What's new in 2026 announcement"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="absolute left-4 top-4 inline-flex items-center gap-2 rounded-full border border-white/20 bg-black/40 px-3 py-2 backdrop-blur">
+                    <span className="relative h-7 w-7 overflow-hidden rounded-full border border-white/15 bg-white/10">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src="/40.jpg" alt="" className="h-full w-full object-cover" />
+                    </span>
+                    <span className="text-xs font-black uppercase tracking-[0.12em] text-[#f0d07a]">
+                      40th Anniversary
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8 grid gap-6 lg:grid-cols-2">
+                <article className="rounded-3xl border border-white/15 bg-[#1e252d] p-6">
+                  <h3 className="text-xl font-black uppercase tracking-tight text-white sm:text-2xl">
+                    New 4-Mile Course
+                  </h3>
+                  <p className="mt-3 text-base leading-7 text-white/85 sm:text-lg sm:leading-8">
+                    Our new course design will feature an &ldquo;out and back&rdquo; 4-mile route that
+                    will turn around in front of the historic Ohio State University
+                    &ldquo;Horseshoe&rdquo;.
+                  </p>
+                  <div className="mt-5">
+                    <Link
+                      href="/event-details"
+                      className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:bg-white/15 sm:text-base"
+                    >
+                      Click For Map Of The Course
+                    </Link>
+                  </div>
+                </article>
+
+                <article className="rounded-3xl border border-white/15 bg-[#1e252d] p-6">
+                  <h3 className="text-xl font-black uppercase tracking-tight text-white sm:text-2xl">
+                    Walk N&apos; Talk (About 2.4 Miles)
+                  </h3>
+                  <p className="mt-3 text-base leading-7 text-white/85 sm:text-lg sm:leading-8">
+                    This year&apos;s Walk N&apos; Talk route is designed for the more casual runner or
+                    walker. It&apos;s ideal for family and friends who prefer to take their time as
+                    they enjoy a morning of fun and exercise. The route will include the Ohio State
+                    Waterman Agriculture and Natural Resources Complex.
+                  </p>
+                  <p className="mt-3 text-base leading-7 text-white/85 sm:text-lg sm:leading-8">
+                    Please, no dogs allowed as a courtesy to other participants.
+                  </p>
+                  <div className="mt-5">
+                    <Link
+                      href="/event-details"
+                      className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:bg-white/15 sm:text-base"
+                    >
+                      Click For Map Of The Course
+                    </Link>
+                  </div>
+                </article>
+              </div>
+            </div>
           </div>
         </section>
 
