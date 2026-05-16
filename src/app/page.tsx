@@ -37,7 +37,7 @@ export default function Home() {
               <div className="max-w-7xl">
               <div className="flex md:flex-row items-center gap-2 mb-12">
             
-              <div className="relative h-18 w-44 md:w-60 overflow-hidden bg-white border-2 border-black">
+              <div className="relative h-22 w-48 md:w-64 overflow-hidden bg-white border-2 border-black">
                 <Image
                   src="/Chase-logo.png"
                   alt="Chase logo"
@@ -47,9 +47,9 @@ export default function Home() {
                   priority
                 />
               </div>
-              <div className="relative h-18 w-30 overflow-hidden border-2 border-black">
+              <div className="relative h-22 w-64 overflow-hidden border-2 border-black">
                 <Image
-                  src="/Chaselogo1.jpg"
+                  src="/images.png"
                   alt="Chase logo"
                   fill
                   sizes="56px"
