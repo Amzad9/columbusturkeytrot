@@ -35,11 +35,11 @@ export default function Home() {
           <div className="container mx-auto">
             <div className="relative z-10 grid gap-6 lg:grid-cols-2 lg:items-center">
               <div className="max-w-7xl">
-              <div className="mb-1 flex items-center gap-2">
+              <div className="flex items-center gap-2 mb-12">
             
-              <div className="relative h-16 w-64 overflow-hidden border-2 border-black">
+              <div className="relative h-18 w-60 overflow-hidden bg-white border-2 border-black">
                 <Image
-                  src="/chase.png"
+                  src="/Chase-logo.png"
                   alt="Chase logo"
                   fill
                   sizes="56px"
@@ -47,7 +47,7 @@ export default function Home() {
                   priority
                 />
               </div>
-              <div className="relative h-16 w-26 overflow-hidden border-2 border-black">
+              <div className="relative h-18 w-30 overflow-hidden border-2 border-black">
                 <Image
                   src="/Chaselogo1.jpg"
                   alt="Chase logo"

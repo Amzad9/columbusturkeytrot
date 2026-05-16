@@ -50,8 +50,8 @@ const siteContact = {
     ],
     directionsHref: "https://www.google.com/maps/search/?api=1&query=1675+W+Lane+Ave,+Columbus,+OH+43221",
     businessHours: [
-        "Race day - Thursday, Nov 27 | Tot Trot 8:30am",
-        "Race day - Thursday, Nov 27 | Main start 9:00am",
+        "Race day - Thursday, Nov 26th | Tot Trot 8:30am",
+        "Race day - Thursday, Nov 26th | Main start 9:00am",
         "Date - Thanksgiving Day | Columbus, Ohio"
     ],
     socials: [
@@ -363,49 +363,25 @@ function SiteHeader({ activeLabel }) {
                                 href: "/",
                                 className: "flex min-w-0 shrink-0 items-center",
                                 "aria-label": "Columbus Turkey Trot",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "relative overflow-hidden rounded-md bg-transparent h-24 w-32",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/logo.png",
-                                            alt: "Columbus Turkey Trot logo",
-                                            fill: true,
-                                            className: "object-contain",
-                                            priority: true
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 110,
-                                            columnNumber: 13
-                                        }, this)
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "relative overflow-hidden rounded-md bg-transparent h-24 w-64",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/logo.jpg",
+                                        alt: "Columbus Turkey Trot logo",
+                                        fill: true,
+                                        className: "object-contain",
+                                        priority: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SiteHeader.tsx",
-                                        lineNumber: 109,
-                                        columnNumber: 11
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "min-w-0",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            className: "text-base font-black uppercase leading-none tracking-[0.04em] text-[#00a2e7] md:text-md",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "block whitespace-nowrap",
-                                                children: "Columbus Turkey Trot 26"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/SiteHeader.tsx",
-                                                lineNumber: 121,
-                                                columnNumber: 15
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 120,
-                                            columnNumber: 13
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/SiteHeader.tsx",
-                                        lineNumber: 118,
-                                        columnNumber: 11
+                                        lineNumber: 110,
+                                        columnNumber: 13
                                     }, this)
-                                ]
-                            }, void 0, true, {
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/SiteHeader.tsx",
+                                    lineNumber: 109,
+                                    columnNumber: 11
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/src/components/SiteHeader.tsx",
                                 lineNumber: 104,
                                 columnNumber: 9

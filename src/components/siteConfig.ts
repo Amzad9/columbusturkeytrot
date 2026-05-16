@@ -26,8 +26,8 @@ export const siteContact = {
   directionsHref:
     "https://www.google.com/maps/search/?api=1&query=1675+W+Lane+Ave,+Columbus,+OH+43221",
   businessHours: [
-    "Race day - Thursday, Nov 27 | Tot Trot 8:30am",
-    "Race day - Thursday, Nov 27 | Main start 9:00am",
+    "Race day - Thursday, Nov 26th | Tot Trot 8:30am",
+    "Race day - Thursday, Nov 26th | Main start 9:00am",
     "Date - Thanksgiving Day | Columbus, Ohio",
   ],
   socials: [
