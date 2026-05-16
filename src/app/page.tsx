@@ -23,21 +23,21 @@ import SiteHeader from "../components/SiteHeader";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[radial-gradient(circle_at_top,#2a3138,#1a2027_50%,#161b22)] text-[#f1f4f6]">
+    <main className="min-h-screen  text-white">
       <div className="">
         <SiteHeader activeLabel="Home" />
 
         <section
           id="home"
-          className="relative overflow-hidden px-4 bg-[#1e252d] pt-18 pb-8"
+          className="relative overflow-hidden bg-white px-4 pt-10 pb-8"
         >
          
           <div className="container mx-auto">
             <div className="relative z-10 grid gap-6 lg:grid-cols-2 lg:items-center">
               <div className="max-w-7xl">
-              <div className="flex items-center gap-2 mb-12">
+              <div className="flex md:flex-row items-center gap-2 mb-12">
             
-              <div className="relative h-18 w-60 overflow-hidden bg-white border-2 border-black">
+              <div className="relative h-18 w-44 md:w-60 overflow-hidden bg-white border-2 border-black">
                 <Image
                   src="/Chase-logo.png"
                   alt="Chase logo"
@@ -62,11 +62,11 @@ export default function Home() {
                 2026 Columbus Turkey Trot
                 </h1>
               
-                <p className="mt-3 text-2xl font-semibold text-[#f3d27d] sm:text-4xl">
+                <p className="mt-3 text-2xl font-semibold text-[#d69a00]  sm:text-4xl">
                   Thanksgiving Day
                 </p>
-                <p className="mt-3 text-2xl font-semibold text-[#f3d27d] sm:text-4xl">Columbus, Ohio 11/26/2026</p>
-                <p className="mt-5 max-w-4xl text-lg leading-9 text-white/95 sm:text-2xl sm:leading-[1.3]">
+                <p className="mt-3 text-2xl font-semibold text-[#d69a00]  sm:text-4xl">Columbus, Ohio 11/26/2026</p>
+                <p className="mt-5 max-w-4xl text-lg leading-9 text-[#232a33]/90 sm:text-2xl sm:leading-[1.3]">
                   Join one of Columbus&apos;s favorite Thanksgiving traditions as we celebrate our 40th
                   Anniversary with a new 4-mile course. Choose your event and celebrate race morning
                   with family, friends, and the local running community.
@@ -83,9 +83,10 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="relative overflow-hidden rounded-3xl border border-white/20 bg-[#83a73d]">
+              <div className="relative overflow-hidden rounded-3xl  bg-[#f3f4f6]">
+            
                 <video
-                  className="min-h-[240px] w-full object-cover md:min-h-[480px]"
+                  className="min-h-[240px] w-full rounded-2xl object-cover md:min-h-[480px]"
                   src="/120683-721759770_medium.mp4"
                   autoPlay
                   loop
@@ -94,13 +95,21 @@ export default function Home() {
                   controls
                 />
                
-
-                {/* <Image
-                  src="https://images.unsplash.com/photo-1497294815431-9365093b7331?auto=format&fit=crop&w=1200&q=80"
-                  alt="Women runners smiling"
-                  fill
-                  className="object-cover"
-                /> */}
+               <div className="w-full bg-white">
+        <div className="container mx-auto hidden items-center justify-start gap-2 px-3 py-2 text-center sm:flex sm:flex-row sm:gap-x-3 sm:gap-y-1">
+          <span className="relative h-12 w-12 shrink-0 overflow-hidden rounded-full border border-white/15 bg-white/5">
+            <Image src="/40.jpg" alt="40th Anniversary" fill className="object-cover" />
+          </span>
+          <div className="flex flex-wrap items-center justify-center gap-2 sm:justify-start">
+            <span className=" px-3 py-3 text-[10px] font-black uppercase tracking-[0.14em] text-[#11161d] sm:text-[18px]">
+              40th Anniversary
+            </span>
+            <span className="px-3 py-2 text-[18px] font-black uppercase tracking-[0.14em] text-black sm:text-[18px]">
+              New 4 Mile Course
+            </span>
+          </div>
+        </div>
+      </div>
               </div>
             </div>
           </div>
@@ -108,7 +117,7 @@ export default function Home() {
 
        
 
-        <section id="swag" className="mt-4  bg-[#212831]">
+        <section id="swag" className="border-t border-gray-200 bg-white px-4 py-10 sm:px-8">
           <div className="container mx-auto grid gap-4 md:grid-cols-3">
             {[
               {
@@ -124,37 +133,37 @@ export default function Home() {
                 body: "Race proceeds support Easterseals of Central and Southeast Ohio.",
               },
             ].map((item) => (
-              <article key={item.title} className="rounded-2xl border border-white/12 bg-white/5 p-4">
+              <article key={item.title} className="rounded-2xl border border-black/10 bg-[#232a33] p-4 shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
                 <h3 className="text-2xl font-black uppercase text-white">{item.title}</h3>
-                <p className="mt-2 text-xl leading-8 text-white/90">{item.body}</p>
+                <p className="mt-2 text-xl leading-8 text-[white">{item.body}</p>
               </article>
             ))}
           </div>
         </section>
-        <section id="finish-line-food" className="mt-4 bg-[#1d232b] px-4 py-10 sm:px-8">
+        <section id="finish-line-food" className="mt-0 bg-[#d7dde4] px-4 py-10 sm:px-8">
           <div className="container mx-auto">
-            <div className="rounded-[28px] border border-white/15 bg-white/5 p-6 sm:p-10">
+            <div className="rounded-[28px] border border-black/10 bg-white p-6 shadow-[0_18px_44px_rgba(0,0,0,0.12)] sm:p-10">
               <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-end">
                 <div>
-                  <p className="text-xs font-black uppercase tracking-[0.22em] text-white/70">
+                  <p className="text-xs font-black uppercase tracking-[0.22em] text-[#232a33]/70">
                     Finish Line Celebration
                   </p>
-                  <h2 className="mt-2 text-3xl font-black uppercase leading-none text-[#f3d27d] sm:text-4xl">
+                  <h2 className="mt-2 text-3xl font-black uppercase leading-none text-[#232a33] sm:text-4xl">
                     Finish Line Food Celebration
                   </h2>
-                  <p className="mt-4 max-w-3xl text-lg leading-8 text-white/90 sm:text-xl">
+                  <p className="mt-4 max-w-3xl text-lg leading-8 text-[#232a33]/80 sm:text-xl">
                     Cross the line, grab your medal, and keep the holiday vibes going with a family-friendly food
                     celebration powered by our sponsors.
                   </p>
                 </div>
-                <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-black uppercase tracking-[0.12em] text-white/90">
-                  <span className="h-2 w-2 rounded-full bg-[#1c9a64]" aria-hidden />
+                <div className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-black/5 px-4 py-2 text-xs font-black uppercase tracking-[0.12em] text-[#232a33]/90">
+                  <span className="h-2 w-2 rounded-full bg-[#232a33]" aria-hidden />
                   Finisher Perks Included
                 </div>
               </div>
 
               <div className="mt-8 grid gap-6 lg:grid-cols-2">
-                <article className="group overflow-hidden rounded-3xl border border-white/15 bg-[#1e252d] shadow-[0_18px_44px_rgba(0,0,0,0.25)]">
+                <article className="group overflow-hidden rounded-3xl border border-black/10 bg-white shadow-[0_18px_44px_rgba(0,0,0,0.12)]">
                   <div className="relative aspect-video w-full">
                     <Image src="/dominoz.png" alt="Domino's Pizza sponsor placeholder" fill className="object-cover" />
                     <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent" />
@@ -163,24 +172,24 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-black uppercase tracking-tight text-white sm:text-2xl">
+                    <h3 className="text-xl font-black uppercase tracking-tight text-[#232a33] sm:text-2xl">
                       Every finisher gets a 12-inch pizza
                     </h3>
-                    <ul className="mt-4 space-y-2 text-base leading-7 text-white/85 sm:text-lg">
+                    <ul className="mt-4 space-y-2 text-base leading-7 text-[#232a33]/80 sm:text-lg">
                       <li>
-                        <span className="font-semibold text-white">12-inch pizza</span> for every finisher.
+                        <span className="font-semibold text-[#232a33]">12-inch pizza</span> for every finisher.
                       </li>
                       <li>
-                        Pizza box includes a <span className="font-semibold text-white">redemption certificate</span>.
+                        Pizza box includes a <span className="font-semibold text-[#232a33]">redemption certificate</span>.
                       </li>
                       <li>
-                        Redeem at your <span className="font-semibold text-white">local Domino&apos;s location</span>.
+                        Redeem at your <span className="font-semibold text-[#232a33]">local Domino&apos;s location</span>.
                       </li>
                     </ul>
                   </div>
                 </article>
 
-                <article className="group overflow-hidden rounded-3xl border border-white/15 bg-[#1e252d] shadow-[0_18px_44px_rgba(0,0,0,0.25)]">
+                <article className="group overflow-hidden rounded-3xl border border-black/10 bg-white shadow-[0_18px_44px_rgba(0,0,0,0.12)]">
                   <div className="relative aspect-video w-full">
                     <Image src="/Skyline.png" alt="Skyline Chili sponsor placeholder" fill className="object-cover" />
                     <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/10 to-transparent" />
@@ -189,18 +198,18 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-black uppercase tracking-tight text-white sm:text-2xl">
+                    <h3 className="text-xl font-black uppercase tracking-tight text-[#232a33] sm:text-2xl">
                       Famous coney dogs at the finish line
                     </h3>
-                    <ul className="mt-4 space-y-2 text-base leading-7 text-white/85 sm:text-lg">
+                    <ul className="mt-4 space-y-2 text-base leading-7 text-[#232a33]/80 sm:text-lg">
                       <li>
-                        Served <span className="font-semibold text-white">at the finish line</span>.
+                        Served <span className="font-semibold text-[#232a33]">at the finish line</span>.
                       </li>
                       <li>
-                        Enjoy their <span className="font-semibold text-white">classic coney dogs</span>.
+                        Enjoy their <span className="font-semibold text-[#232a33]">classic coney dogs</span>.
                       </li>
                       <li>
-                        Perfect for a <span className="font-semibold text-white">holiday family celebration</span>.
+                        Perfect for a <span className="font-semibold text-[#232a33]">holiday family celebration</span>.
                       </li>
                     </ul>
                   </div>
@@ -209,18 +218,18 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="whats-new" className="mt-5 bg-[#1d232b] px-4 py-8 sm:px-8">
+        <section id="whats-new" className="mt-0 bg-white px-4 py-10 sm:px-8">
           <div className="container mx-auto">
-            <div className="rounded-[28px] border border-white/15 bg-white/5 p-6 shadow-[0_18px_44px_rgba(0,0,0,0.30)] sm:p-10">
-              <div className="grid gap-6 lg:grid-cols-[1fr_0.9fr] lg:items-start">
+            <div className="rounded-[28px] border border-black/10 bg-white p-6 shadow-[0_18px_44px_rgba(0,0,0,0.12)] sm:p-10">
+              <div className="grid gap-6 lg:grid-cols-[1fr_1fr] lg:items-start">
                 <div>
-              <p className="text-xs font-black uppercase tracking-[0.18em] text-white/75">
+              <p className="text-xs font-black uppercase tracking-[0.18em] text-[#232a33]/70">
                 What&apos;s New In &apos;26
               </p>
-              <h2 className="mt-3 text-3xl font-black uppercase leading-[0.95] tracking-tight text-[#f3d27d] sm:text-4xl lg:text-5xl">
+              <h2 className="mt-3 text-3xl font-black uppercase leading-[0.95] tracking-tight text-[#232a33] sm:text-4xl lg:text-4xl">
                 40th Anniversary Updates
               </h2>
-              <p className="mt-4 max-w-5xl text-base leading-7 text-white/90 sm:text-lg sm:leading-8">
+              <p className="mt-4 max-w-5xl text-base leading-7 text-[#232a33]/80 sm:text-lg sm:leading-8">
                 Join us in celebrating our 40th Year Anniversary with exciting changes to the 2026
                 Chase Columbus Turkey Trot, benefiting Easterseals of Central and Southeast Ohio.
                 We&apos;re thrilled to announce updates that will enhance your experience while making
@@ -228,7 +237,7 @@ export default function Home() {
               </p>
                 </div>
 
-                <div className="relative overflow-hidden rounded-3xl border border-white/15 bg-[#1e252d] shadow-[0_18px_44px_rgba(0,0,0,0.25)]">
+                <div className="relative overflow-hidden rounded-3xl border border-black/10 bg-white shadow-[0_18px_44px_rgba(0,0,0,0.12)]">
                   <div className="relative aspect-16/10 w-full">
                     <Image
                       src="/40.jpg"
@@ -242,7 +251,7 @@ export default function Home() {
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img src="/40.jpg" alt="" className="h-full w-full object-cover" />
                     </span>
-                    <span className="text-xs font-black uppercase tracking-[0.12em] text-[#f0d07a]">
+                    <span className="text-xs font-black uppercase tracking-[0.12em] text-white">
                       40th Anniversary
                     </span>
                   </div>
@@ -250,11 +259,11 @@ export default function Home() {
               </div>
 
               <div className="mt-8 grid gap-6 lg:grid-cols-2">
-                <article className="rounded-3xl border border-white/15 bg-[#1e252d] p-6">
-                  <h3 className="text-xl font-black uppercase tracking-tight text-white sm:text-2xl">
+                <article className="rounded-3xl border border-black/10 bg-white p-6 shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
+                  <h3 className="text-xl font-black uppercase tracking-tight text-[#232a33] sm:text-2xl">
                     New 4-Mile Course
                   </h3>
-                  <p className="mt-3 text-base leading-7 text-white/85 sm:text-lg sm:leading-8">
+                  <p className="mt-3 text-base leading-7 text-[#232a33]/80 sm:text-lg sm:leading-8">
                     Our new course design will feature an &ldquo;out and back&rdquo; 4-mile route that
                     will turn around in front of the historic Ohio State University
                     &ldquo;Horseshoe&rdquo;.
@@ -262,30 +271,30 @@ export default function Home() {
                   <div className="mt-5">
                     <Link
                       href="/event-details"
-                      className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:bg-white/15 sm:text-base"
+                      className="inline-flex items-center justify-center rounded-full border border-[#232a33] bg-[#232a33] px-6 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:brightness-110 sm:text-base"
                     >
                       Click For Map Of The Course
                     </Link>
                   </div>
                 </article>
 
-                <article className="rounded-3xl border border-white/15 bg-[#1e252d] p-6">
-                  <h3 className="text-xl font-black uppercase tracking-tight text-white sm:text-2xl">
+                <article className="rounded-3xl border border-black/10 bg-white p-6 shadow-[0_10px_25px_rgba(0,0,0,0.08)]">
+                  <h3 className="text-xl font-black uppercase tracking-tight text-[#232a33] sm:text-2xl">
                     Walk N&apos; Talk (About 2.4 Miles)
                   </h3>
-                  <p className="mt-3 text-base leading-7 text-white/85 sm:text-lg sm:leading-8">
+                  <p className="mt-3 text-base leading-7 text-[#232a33]/80 sm:text-lg sm:leading-8">
                     This year&apos;s Walk N&apos; Talk route is designed for the more casual runner or
                     walker. It&apos;s ideal for family and friends who prefer to take their time as
                     they enjoy a morning of fun and exercise. The route will include the Ohio State
                     Waterman Agriculture and Natural Resources Complex.
                   </p>
-                  <p className="mt-3 text-base leading-7 text-white/85 sm:text-lg sm:leading-8">
+                  <p className="mt-3 text-base leading-7 text-[#232a33]/80 sm:text-lg sm:leading-8">
                     Please, no dogs allowed as a courtesy to other participants.
                   </p>
                   <div className="mt-5">
                     <Link
                       href="/event-details"
-                      className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:bg-white/15 sm:text-base"
+                      className="inline-flex items-center justify-center rounded-full border border-[#232a33] bg-[#232a33] px-6 py-3 text-sm font-black uppercase tracking-wide text-white transition hover:brightness-110 sm:text-base"
                     >
                       Click For Map Of The Course
                     </Link>
@@ -296,13 +305,13 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="services" className="mt-5 bg-[#1d232b] px-4 py-6 sm:px-8">
+        <section id="services" className="mt-0 bg-[#d7dde4] px-4 py-10 sm:px-8">
           <div className="container mx-auto grid items-center gap-6 lg:grid-cols-[1fr_1fr]">
             <div>
-              <h2 className="md:text-4xl font-black uppercase leading-none text-[#f3d27d] text-2xl">
+              <h2 className="text-2xl font-black uppercase leading-none text-[#232a33] md:text-4xl">
                 Featured Event Details
               </h2>
-              <ul className="mt-5 space-y-4 text-xl leading-tight text-white/95 sm:text-xl">
+              <ul className="mt-5 space-y-4 text-xl leading-tight text-[#232a33] sm:text-xl">
                 <li>
                   <span className="font-semibold">Choose your challenge:</span> 4-Mile race, 2.4-Mile
                   Walk N&apos; Talk, Tot Trot, or virtual participation.
@@ -317,7 +326,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="relative min-h-[300px] overflow-hidden rounded-3xl border border-white/15">
+            <div className="relative min-h-[300px] overflow-hidden rounded-3xl border border-white/15 bg-white">
               <Image
                 src="/features.jpg"
                 alt="Women at finish line"
@@ -358,9 +367,9 @@ export default function Home() {
             </div>
         </section> */}
 
-        <section id="projects" className="mt-0 bg-[#1e252d] px-4 py-6 sm:px-8 sm:py-12">
+        <section id="projects" className="mt-0 bg-white px-4 py-10 sm:px-8 sm:py-12">
           <div className="container mx-auto grid gap-6 lg:grid-cols-[0.5fr_1fr]">
-            <div className="relative min-h-[250px] overflow-hidden rounded-3xl border border-white/15">
+            <div className="relative min-h-[250px] overflow-hidden rounded-3xl border border-black/10">
               <Image
                 src="/event.jpg"
                 alt="Event director"
@@ -369,22 +378,22 @@ export default function Home() {
               />
             </div>
             <div>
-                <h3 className="md:text-4xl font-black uppercase leading-none text-[#f3d27d] text-2xl">
+                <h3 className="text-2xl font-black uppercase leading-none text-[#232a33] md:text-4xl">
                 About The Columbus Turkey Trot
               </h3>
-              <p className="mt-4 max-w-6xl text-xl leading-8 text-white/95 sm:text-xl sm:leading-[1.3]">
+              <p className="mt-4 max-w-6xl text-xl leading-8 text-[#232a33]/80 sm:text-xl sm:leading-[1.3]">
                 The Columbus Turkey Trot is a Thanksgiving Day event bringing runners and walkers
                 together for a fun, energetic start to the holiday.
               </p>
-              <p className="mt-3 max-w-6xl text-xl leading-8 text-white/95 sm:text-xl sm:leading-[1.3]">
+              <p className="mt-3 max-w-6xl text-xl leading-8 text-[#232a33]/80 sm:text-xl sm:leading-[1.3]">
                 Participants receive festive race-day perks, including a commemorative event shirt
                 and a custom finisher medal.
               </p>
-              <p className="mt-3 max-w-6xl text-xl leading-8 text-white/95 sm:text-xl sm:leading-[1.3]">
+              <p className="mt-3 max-w-6xl text-xl leading-8 text-[#232a33]/80 sm:text-xl sm:leading-[1.3]">
                 This event also supports a meaningful local cause, with proceeds benefiting
                 Easterseals of Central and Southeast Ohio.
               </p>
-              <p className="mt-5 text-xl text-white sm:text-xl">
+              <p className="mt-5 text-xl text-[#232a33] sm:text-xl">
                 Celebrate Thanksgiving morning with movement, community, and purpose.
               </p>
               <div className="mt-6">
@@ -392,7 +401,7 @@ export default function Home() {
                   href="https://runsignup.com/Race/OH/Columbus/ColumbusTurkeyTrot"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex rounded-full border border-[#1f7f56] bg-[#1c9a64] px-8 py-3 text-xl font-black uppercase tracking-[0.05em] text-[#f7d96f] transition hover:brightness-110"
+                  className="inline-flex rounded-full border border-[#1f7f56] bg-[#1c9a64] px-10 py-4 text-md md:text-xl font-black uppercase tracking-[0.05em] text-[#f7d96f] shadow-[0_10px_25px_rgba(0,0,0,0.45)] transition hover:brightness-110"
                 >
                   Click Here To Register
                 </Link>

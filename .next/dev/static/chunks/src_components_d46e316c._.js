@@ -127,33 +127,33 @@ function SiteHeader({ activeLabel }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                className: "fixed inset-x-0 top-0 z-30 px-0 pt-1 bg-[#232a33]",
+                className: "fixed inset-x-0 top-0 z-30 bg-[#232a33] px-0 pt-1",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-full border-b border-white/10 bg-[#0c1016]",
+                        className: "w-full border-b border-black/10 bg-white",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "container mx-auto flex flex-col items-center justify-between gap-2 px-3 py-2 text-center sm:flex-row sm:text-left",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[12px] text-white/80 sm:justify-start",
+                                    className: "flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[12px] text-[#232a33]/80 sm:justify-start",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["siteContact"].phoneHref,
-                                            className: "inline-flex items-center gap-2 transition hover:text-white",
+                                            className: "inline-flex items-center gap-2 transition hover:text-[#232a33]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-                                                    className: "h-4 w-4 text-[#f0d07a]",
+                                                    className: "h-4 w-4 text-[#232a33]",
                                                     strokeWidth: 2.2
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                                    lineNumber: 35,
+                                                    lineNumber: 38,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["siteContact"].phone
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                                    lineNumber: 36,
+                                                    lineNumber: 39,
                                                     columnNumber: 15
                                                 }, this)
                                             ]
@@ -164,41 +164,41 @@ function SiteHeader({ activeLabel }) {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: `mailto:${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["siteContact"].emailShowroom}`,
-                                            className: "inline-flex items-center gap-2 transition hover:text-white",
+                                            className: "inline-flex items-center gap-2 transition hover:text-[#232a33]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
-                                                    className: "h-4 w-4 text-[#f0d07a]",
+                                                    className: "h-4 w-4 text-[#232a33]",
                                                     strokeWidth: 2.2
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                                    lineNumber: 42,
+                                                    lineNumber: 45,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["siteContact"].emailShowroom
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                                    lineNumber: 43,
+                                                    lineNumber: 46,
                                                     columnNumber: 15
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 38,
+                                            lineNumber: 41,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["siteContact"].directionsHref,
                                             target: "_blank",
                                             rel: "noopener noreferrer",
-                                            className: "inline-flex items-center gap-2 transition hover:text-white",
+                                            className: "inline-flex items-center gap-2 transition hover:text-[#232a33]",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-                                                    className: "h-4 w-4 text-[#f0d07a]",
+                                                    className: "h-4 w-4 text-[#232a33]",
                                                     strokeWidth: 2.2
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 54,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -206,13 +206,13 @@ function SiteHeader({ activeLabel }) {
                                                     children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$siteConfig$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["siteContact"].addressLines.join(" ")
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                                    lineNumber: 52,
+                                                    lineNumber: 55,
                                                     columnNumber: 15
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 45,
+                                            lineNumber: 48,
                                             columnNumber: 13
                                         }, this)
                                     ]
@@ -229,18 +229,18 @@ function SiteHeader({ activeLabel }) {
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             "aria-label": "Instagram",
-                                            className: "inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/85 transition hover:bg-white/10 hover:text-white",
+                                            className: "inline-flex h-9 w-9 items-center justify-center rounded-full border border-black/10 bg-black/5 text-[#232a33]/85 transition hover:bg-black/10 hover:text-[#232a33]",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__["Instagram"], {
                                                 className: "h-4 w-4",
                                                 strokeWidth: 2.2
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/SiteHeader.tsx",
-                                                lineNumber: 64,
+                                                lineNumber: 67,
                                                 columnNumber: 15
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 57,
+                                            lineNumber: 60,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -248,18 +248,18 @@ function SiteHeader({ activeLabel }) {
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             "aria-label": "Facebook",
-                                            className: "inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/85 transition hover:bg-white/10 hover:text-white",
+                                            className: "inline-flex h-9 w-9 items-center justify-center rounded-full border border-black/10 bg-black/5 text-[#232a33]/85 transition hover:bg-black/10 hover:text-[#232a33]",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$facebook$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Facebook$3e$__["Facebook"], {
                                                 className: "h-4 w-4",
                                                 strokeWidth: 2.2
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/SiteHeader.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 76,
                                                 columnNumber: 15
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 66,
+                                            lineNumber: 69,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -267,24 +267,24 @@ function SiteHeader({ activeLabel }) {
                                             target: "_blank",
                                             rel: "noopener noreferrer",
                                             "aria-label": "YouTube",
-                                            className: "inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/85 transition hover:bg-white/10 hover:text-white",
+                                            className: "inline-flex h-9 w-9 items-center justify-center rounded-full border border-black/10 bg-black/5 text-[#232a33]/85 transition hover:bg-black/10 hover:text-[#232a33]",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$youtube$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Youtube$3e$__["Youtube"], {
                                                 className: "h-4 w-4",
                                                 strokeWidth: 2.2
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/SiteHeader.tsx",
-                                                lineNumber: 82,
+                                                lineNumber: 85,
                                                 columnNumber: 15
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 75,
+                                            lineNumber: 78,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                    lineNumber: 56,
+                                    lineNumber: 59,
                                     columnNumber: 11
                                 }, this)
                             ]
@@ -299,65 +299,7 @@ function SiteHeader({ activeLabel }) {
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-full border-b border-white/10 bg-[#11161d]",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "container mx-auto hidden items-center justify-center gap-2 px-3 py-2 text-center sm:flex sm:flex-row sm:gap-x-3 sm:gap-y-1",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "relative h-6 w-6 shrink-0 overflow-hidden rounded-full border border-white/15 bg-white/5",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/40.jpg",
-                                        alt: "40th Anniversary",
-                                        fill: true,
-                                        className: "object-cover"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/components/SiteHeader.tsx",
-                                        lineNumber: 91,
-                                        columnNumber: 13
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/SiteHeader.tsx",
-                                    lineNumber: 90,
-                                    columnNumber: 11
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex flex-wrap items-center justify-center gap-2 sm:justify-start",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "rounded-full bg-[#f0d07a] px-3 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-[#11161d] sm:text-[11px]",
-                                            children: "40th Anniversary"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 94,
-                                            columnNumber: 13
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-white sm:text-[11px]",
-                                            children: "New 4 Mile Course"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 97,
-                                            columnNumber: 13
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/SiteHeader.tsx",
-                                    lineNumber: 93,
-                                    columnNumber: 11
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/SiteHeader.tsx",
-                            lineNumber: 89,
-                            columnNumber: 9
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/SiteHeader.tsx",
-                        lineNumber: 88,
-                        columnNumber: 7
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "container mx-auto flex items-center justify-between gap-4  px-3 py-1  sm:px-5",
+                        className: "container mx-auto flex items-center justify-between gap-4 px-3 py-1 sm:px-5",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/",
@@ -373,17 +315,17 @@ function SiteHeader({ activeLabel }) {
                                         priority: true
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SiteHeader.tsx",
-                                        lineNumber: 110,
+                                        lineNumber: 113,
                                         columnNumber: 13
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 112,
                                     columnNumber: 11
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/SiteHeader.tsx",
-                                lineNumber: 104,
+                                lineNumber: 107,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -397,12 +339,12 @@ function SiteHeader({ activeLabel }) {
                                     strokeWidth: 2.4
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                    lineNumber: 134,
+                                    lineNumber: 137,
                                     columnNumber: 11
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/SiteHeader.tsx",
-                                lineNumber: 127,
+                                lineNumber: 130,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -425,12 +367,12 @@ function SiteHeader({ activeLabel }) {
                                                     children: item.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                                    lineNumber: 143,
+                                                    lineNumber: 146,
                                                     columnNumber: 19
                                                 }, this)
                                             }, item.href, false, {
                                                 fileName: "[project]/src/components/SiteHeader.tsx",
-                                                lineNumber: 142,
+                                                lineNumber: 145,
                                                 columnNumber: 17
                                             }, this);
                                         }),
@@ -442,24 +384,24 @@ function SiteHeader({ activeLabel }) {
                                             children: "Register Here"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 156,
+                                            lineNumber: 159,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                    lineNumber: 138,
+                                    lineNumber: 141,
                                     columnNumber: 11
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/SiteHeader.tsx",
-                                lineNumber: 137,
+                                lineNumber: 140,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/SiteHeader.tsx",
-                        lineNumber: 103,
+                        lineNumber: 106,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -471,7 +413,7 @@ function SiteHeader({ activeLabel }) {
                         "aria-hidden": !isMobileMenuOpen
                     }, void 0, false, {
                         fileName: "[project]/src/components/SiteHeader.tsx",
-                        lineNumber: 168,
+                        lineNumber: 171,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -489,7 +431,7 @@ function SiteHeader({ activeLabel }) {
                                         children: "Menu"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SiteHeader.tsx",
-                                        lineNumber: 185,
+                                        lineNumber: 188,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -502,18 +444,18 @@ function SiteHeader({ activeLabel }) {
                                             strokeWidth: 2.4
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 192,
+                                            lineNumber: 195,
                                             columnNumber: 13
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/SiteHeader.tsx",
-                                        lineNumber: 186,
+                                        lineNumber: 189,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/SiteHeader.tsx",
-                                lineNumber: 184,
+                                lineNumber: 187,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -536,12 +478,12 @@ function SiteHeader({ activeLabel }) {
                                                     children: item.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                                    lineNumber: 202,
+                                                    lineNumber: 205,
                                                     columnNumber: 19
                                                 }, this)
                                             }, item.href, false, {
                                                 fileName: "[project]/src/components/SiteHeader.tsx",
-                                                lineNumber: 201,
+                                                lineNumber: 204,
                                                 columnNumber: 17
                                             }, this);
                                         }),
@@ -553,29 +495,29 @@ function SiteHeader({ activeLabel }) {
                                                 children: "Register Now"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/SiteHeader.tsx",
-                                                lineNumber: 217,
+                                                lineNumber: 220,
                                                 columnNumber: 15
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/SiteHeader.tsx",
-                                            lineNumber: 216,
+                                            lineNumber: 219,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/SiteHeader.tsx",
-                                    lineNumber: 197,
+                                    lineNumber: 200,
                                     columnNumber: 11
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/SiteHeader.tsx",
-                                lineNumber: 196,
+                                lineNumber: 199,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/SiteHeader.tsx",
-                        lineNumber: 177,
+                        lineNumber: 180,
                         columnNumber: 7
                     }, this)
                 ]
@@ -586,10 +528,10 @@ function SiteHeader({ activeLabel }) {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 "aria-hidden": true,
-                className: "h-[232px] sm:h-[172px]"
+                className: "h-[226px] sm:h-[160px]"
             }, void 0, false, {
                 fileName: "[project]/src/components/SiteHeader.tsx",
-                lineNumber: 229,
+                lineNumber: 232,
                 columnNumber: 7
             }, this)
         ]

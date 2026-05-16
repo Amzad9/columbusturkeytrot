@@ -1,2 +1,90 @@
-[00:00:00.745] Server  LOG     ✓ Ready in 550ms
-[00:00:02.536] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.795] Server  LOG     ✓ Ready in 589ms
+[00:00:03.228] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:21.489] Server  LOG     ✓ Compiled in 49ms
+[00:04:18.853] Server  LOG     ✓ Compiled in 17ms
+[00:04:33.118] Server  LOG     ✓ Compiled in 18ms
+[00:07:19.973] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:31.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:11.527] Server  LOG     ✓ Compiled in 16ms
+[00:19:06.172] Browser ERROR   ./src/app/page.tsx:85:22
+Parsing ecmascript source code failed
+  83 |                 </div>
+  84 |               </div>
+> 85 |               </span>
+     |                      ^
+> 86 |
+     | ^
+> 87 |               <div className="relative overflow-hidden rounded-3xl border border-black/10 bg-[#f3f4f6]">
+     | ^^^^^^^^^^^^^^^
+  88 |               
+  89 |                 <video
+  90 |                   className="min-h-[240px] w-full object-cover md:min-h-[480px]"
+
+Expected '</', got 'jsx text'
+[00:19:37.995] Browser ERROR   ./src/app/page.tsx:108:17
+Parsing ecmascript source code failed
+  106 |               </div>
+  107 |             </div>
+> 108 |           </div>
+      |                 ^
+> 109 |         </section>
+      | ^^^^^^^^^
+  110 |
+  111 |        
+  112 |
+
+Expected '</', got 'jsx text'
+[00:19:56.995] Browser ERROR   ./src/app/page.tsx:108:17
+Parsing ecmascript source code failed
+  106 |               </div>
+  107 |             </div>
+> 108 |           </div>
+      |                 ^
+> 109 |         </section>
+      | ^^^^^^^^^
+  110 |
+  111 |        
+  112 |
+
+Expected '</', got 'jsx text'
+[00:31:27.680] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:00.076] Server  LOG     ✓ Compiled in 19ms
+[00:32:23.344] Server  LOG     ✓ Compiled in 25ms
+[00:32:27.366] Server  LOG     ✓ Compiled in 27ms
+[00:32:31.981] Server  LOG     ✓ Compiled in 27ms
+[00:44:21.977] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:22.097] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+

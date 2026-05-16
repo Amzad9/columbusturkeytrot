@@ -27,28 +27,31 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
 
   return (
     <>
-      <header className="fixed inset-x-0 top-0 z-30 px-0 pt-1 bg-[#232a33]">
-      <div className="w-full border-b border-white/10 bg-[#0c1016]">
+      <header className="fixed inset-x-0 top-0 z-30 bg-[#232a33] px-0 pt-1">
+      <div className="w-full border-b border-black/10 bg-white">
         <div className="container mx-auto flex flex-col items-center justify-between gap-2 px-3 py-2 text-center sm:flex-row sm:text-left">
-          <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[12px] text-white/80 sm:justify-start">
-            <a href={siteContact.phoneHref} className="inline-flex items-center gap-2 transition hover:text-white">
-              <Phone className="h-4 w-4 text-[#f0d07a]" strokeWidth={2.2} />
+          <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-[12px] text-[#232a33]/80 sm:justify-start">
+            <a
+              href={siteContact.phoneHref}
+              className="inline-flex items-center gap-2 transition hover:text-[#232a33]"
+            >
+              <Phone className="h-4 w-4 text-[#232a33]" strokeWidth={2.2} />
               <span>{siteContact.phone}</span>
             </a>
             <a
               href={`mailto:${siteContact.emailShowroom}`}
-              className="inline-flex items-center gap-2 transition hover:text-white"
+              className="inline-flex items-center gap-2 transition hover:text-[#232a33]"
             >
-              <Mail className="h-4 w-4 text-[#f0d07a]" strokeWidth={2.2} />
+              <Mail className="h-4 w-4 text-[#232a33]" strokeWidth={2.2} />
               <span>{siteContact.emailShowroom}</span>
             </a>
             <a
               href={siteContact.directionsHref}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 transition hover:text-white"
+              className="inline-flex items-center gap-2 transition hover:text-[#232a33]"
             >
-              <MapPin className="h-4 w-4 text-[#f0d07a]" strokeWidth={2.2} />
+              <MapPin className="h-4 w-4 text-[#232a33]" strokeWidth={2.2} />
               <span className="truncate max-w-[80vw] sm:max-w-none">{siteContact.addressLines.join(" ")}</span>
             </a>
           </div>
@@ -59,7 +62,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/85 transition hover:bg-white/10 hover:text-white"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-black/10 bg-black/5 text-[#232a33]/85 transition hover:bg-black/10 hover:text-[#232a33]"
             >
               <Instagram className="h-4 w-4" strokeWidth={2.2} />
             </a>
@@ -68,7 +71,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/85 transition hover:bg-white/10 hover:text-white"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-black/10 bg-black/5 text-[#232a33]/85 transition hover:bg-black/10 hover:text-[#232a33]"
             >
               <Facebook className="h-4 w-4" strokeWidth={2.2} />
             </a>
@@ -77,7 +80,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="YouTube"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/15 bg-white/5 text-white/85 transition hover:bg-white/10 hover:text-white"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-black/10 bg-black/5 text-[#232a33]/85 transition hover:bg-black/10 hover:text-[#232a33]"
             >
               <Youtube className="h-4 w-4" strokeWidth={2.2} />
             </a>
@@ -85,7 +88,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
         </div>
       </div>
 
-      <div className="w-full border-b border-white/10 bg-[#11161d]">
+      {/* <div className="w-full border-b border-white/10 bg-[#232a33]">
         <div className="container mx-auto hidden items-center justify-center gap-2 px-3 py-2 text-center sm:flex sm:flex-row sm:gap-x-3 sm:gap-y-1">
           <span className="relative h-6 w-6 shrink-0 overflow-hidden rounded-full border border-white/15 bg-white/5">
             <Image src="/40.jpg" alt="40th Anniversary" fill className="object-cover" />
@@ -99,8 +102,8 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
             </span>
           </div>
         </div>
-      </div>
-      <div className="container mx-auto flex items-center justify-between gap-4  px-3 py-1  sm:px-5">
+      </div> */}
+      <div className="container mx-auto flex items-center justify-between gap-4 px-3 py-1 sm:px-5">
         <Link
           href="/"
           className="flex min-w-0 shrink-0 items-center"
@@ -226,7 +229,7 @@ export default function SiteHeader({ activeLabel }: { activeLabel?: string }) {
         </nav>
       </div>
       </header>
-      <div aria-hidden className="h-[232px] sm:h-[172px]" />
+      <div aria-hidden className="h-[226px] sm:h-[160px]" />
     </>
   );
 }
