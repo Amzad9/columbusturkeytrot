@@ -35,24 +35,24 @@ export default function Home() {
           <div className="container mx-auto">
             <div className="relative z-10 grid gap-6 lg:grid-cols-2 lg:items-center">
               <div className="max-w-7xl">
-              <div className="flex items-center gap-2 mb-12">
+             <div className="flex md:flex-row items-center gap-2 mb-12">
             
-              <div className="relative h-18 w-60 overflow-hidden bg-white border-2 border-black">
+              <div className="relative h-22 w-48 md:w-64 overflow-hidden bg-white border-2 border-black">
                 <Image
                   src="/Chase-logo.png"
                   alt="Chase logo"
                   fill
-                  sizes="56px"
+                  sizes="100px"
                   className="object-contain"
                   priority
                 />
               </div>
-              <div className="relative h-18 w-30 overflow-hidden border-2 border-black">
+              <div className="relative bg-white h-22 w-64 overflow-hidden border-2 border-black">
                 <Image
-                  src="/Chaselogo1.jpg"
+                  src="/images.png"
                   alt="Chase logo"
                   fill
-                  sizes="56px"
+                  sizes="100px"
                   className="object-contain"
                   priority
                 />
